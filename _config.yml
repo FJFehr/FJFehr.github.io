@@ -7,9 +7,9 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Fabio Fehr"
+title                    : "Fabio J. Fehr"
 title_separator          : "-"
-name                     : &name "Fabio Fehr"
+name                     : &name "Fabio J. Fehr"
 description              : &description "Ph.D. student"
 url                      : https://FJFehr.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -80,13 +80,13 @@ analytics:
 
 # Site Author
 author:
-  name             : "Fabio Fehr"
+  name             : "Fabio J. Fehr"
   avatar           : "pp1.jpg"
   bio              : "Research assistant at IDIAP, Ph.D. student at EPFL"
-  location         : "IDIAP, switzerland"
-  employer         : "Idiap"
+  location         : "Idiap, switzerland"
+  employer         : # "Idiap"
   pubmed           :
-  googlescholar    : ""
+  googlescholar    : 
   email            : "fabio.fehr@idiap.ch"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
@@ -102,7 +102,7 @@ author:
   instagram        : 
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "fabio-james-fehr"
+  linkedin         : "fabio-j-fehr"
   orcid            : 
   pinterest        :
   soundcloud       :

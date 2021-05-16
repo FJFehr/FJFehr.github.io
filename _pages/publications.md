@@ -1,16 +1,29 @@
 ---
-layout: archive
 title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
 
-{% if author.googlescholar %}
-  You can also find my articles on <u><a href="{{author.googlescholar}}">my Google Scholar profile</a>.</u>
-{% endif %}
+Soon to be updated.
+
+<!-- When you have an EPFL email create a google scholar account -->
+
+<!-- You can also find my papers on <u><a href="https://scholar.google.com/citations?user=PxvktvQAAAAJ&hl=en">Google Scholar</a>.</u>
+
 
 {% include base_path %}
+## 2020
+[**Recursive Non-Autoregressive Graph-to-Graph Transformer for Dependency Parsing with Iterative Refinement**](https://arxiv.org/abs/2003.13118), **A. Mohammadshahi**, J. Henderson.  
+Under review, 2020.  
+([paper](https://arxiv.org/abs/2003.13118),[Code](),[BibText](https://arxiv.org/abs/2003.13118))  
 
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+## 2019
+[**Graph-to-Graph Transformer for Transition-based Dependency Parsing**](https://arxiv.org/abs/1911.03561), **A. Mohammadshahi**, J. Henderson.  
+Under review, 2019.  
+([paper](https://arxiv.org/abs/1911.03561),[Code](),[BibText](https://scholar.googleusercontent.com/scholar.bib?q=info:xvVOqyxbo3oJ:scholar.google.com/&output=citation&scisdr=CgVUSbHCEMLZwwlCaWA:AAGBfm0AAAAAXeVHcWC9UYFqJHCXjgz35MvVN8kJTS6t&scisig=AAGBfm0AAAAAXeVHcaCxCsWZE1uNPT2wIn0O6oTzWupW&scisf=4&ct=citation&cd=-1&hl=en))  
+
+[**Aligning Multilingual Word Embeddings for Cross-Modal Retrieval Task**](https://www.aclweb.org/anthology/D19-6605/), **A. Mohammadshahi**, R. Lebret, K. Aberer.  
+FEVER and LANTERN at EMNLP, 2019.  
+([Paper](https://www.aclweb.org/anthology/D19-6605/),[Code](https://github.com/alirezamshi/AME-CMR),[BibText](https://www.aclweb.org/anthology/D19-6605.bib))
+
+-->
