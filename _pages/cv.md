@@ -9,8 +9,14 @@ redirect_from:
 
 ### Curriculum Vitae
 {% include base_path %}
-You can download my full resume from [here](https://drive.google.com/open?id=14-WF8k9gfQA3-0zaPNpiDCv8afIPhhjk).
 
+ * You can resume from [here](https://FJFehr.github.io/files/Fabio_Fehr_CV_2021.pdf)
 
-### References
+### References letters
 
+ * 2021 Tinashe academic  [here](https://FJFehr.github.io/files/Fabio_Fehr_CV_2021.pdf)
+ * 2021 Little academic  [here](https://FJFehr.github.io/files/Fabio_Fehr_CV_2021.pdf)
+ * 2021 Silal academic [here](https://FJFehr.github.io/files/Fabio_Fehr_CV_2021.pdf)
+ * 2021 Scott Leadership and head tutorship [here](https://FJFehr.github.io/files/Fabio_Fehr_CV_2021.pdf)
+ * 2021 Er and Glass   [here](https://FJFehr.github.io/files/Fabio_Fehr_CV_2021.pdf)
+ * 2021 Internships   [here](https://FJFehr.github.io/files/Fabio_Fehr_CV_2021.pdf)
