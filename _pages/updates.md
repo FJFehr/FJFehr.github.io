@@ -1,7 +1,6 @@
 ---
-permalink: /updates/
 title: "Updates"
-excerpt: "Updates"
+permalink: /updates/
 author_profile: true
 redirect_from: 
   - /updates/
