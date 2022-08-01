@@ -12,27 +12,32 @@ redirect_from:
 **[July 2022]**   
 Our paper [A Variational AutoEncoder for Transformers with Nonparametric Variational Information Bottleneck](https://arxiv.org/abs/2207.13529) is on Arxiv.
 
+**[May 2022]**   
+Attended ACL Conference.
+
+**[March 2022]**   
+Our paper [HyperMixer: An MLP-based Green AI Alternative to Transformers](https://arxiv.org/abs/2203.03691) is on Arxiv.
+
+**[Spring Semester]**   
+Passed the course [Human language technology: applications to information access](https://edu.epfl.ch/coursebook/en/human-language-technology-applications-to-information-access-EE-724?). This course allowed for fine-tuning skills in NLP and provided a more holistic picture of current research space.
+
+**[February 2022]**   
+Successfully passed my candidacy exam. I am officially a PhD candidate of the Electrical Engineering Department of EPFL.
+
 ## 2021
 
-<li><span style="color: black">[July 2022]</span><br>  Our paper <a href=" https://arxiv.org/abs/2207.13529"> A Variational AutoEncoder for Transformers with Nonparametric Variational Information Bottleneck </a> is on Arxiv.
+**[Autumn Semester]**   
+Passed the course [Scientific programming for Engineers](https://edu.epfl.ch/coursebook/en/scientific-programming-for-engineers-MATH-611#:~:text=Summary,complexity%2C%20optimization%20and%20program%20designs.). This course provided fundamentals in code development and practical applications in C++.
 
-<li><span style="color: black">[May 2022]</span><br> Attended ACL Conference.
+**[Autumn Semester]**   
+Passed the course [Deep Learning For Natural Language Processing](https://edu.epfl.ch/coursebook/en/deep-learning-for-natural-language-processing-EE-608). This course gave good grounding in NLP and allowed for a group project which will hopefully lead to a publication.
 
-<li><span style="color: black">[March 2022]</span><br> Our paper <a href="  https://arxiv.org/abs/2203.03691"> HyperMixer: An MLP-based Green AI Alternative to Transformers </a> is on Arxiv.
+**[April 2021]**   
+Attended EACL Conference virtually.
 
-<li><span style="color: black">[Spring Semester]</span><br> Passed the course <a href="https://edu.epfl.ch/coursebook/en/human-language-technology-applications-to-information-access-EE-724?"> Human language technology: applications to information access</a>. This course allowed for fine-tuning skills in NLP and provided a more holistic picture of current research space.
+**[February 2021]**
+Joined the Natural Language Understanding group under the supervision of Dr. James Henderson at the Idiap Research Institute as a research assistant.
 
-<li><span style="color: black">[February 2022]</span><br> Successfully passed my candidacy exam. I am officially a PhD candidate of the Electrical Engineering Department of EPFL.
-
-
-
-<li><span style="color: black">[Autumn Semester]</span><br> Passed the course <a href="https://edu.epfl.ch/coursebook/en/scientific-programming-for-engineers-MATH-611#:~:text=Summary,complexity%2C%20optimization%20and%20program%20designs."> Scientific programming for Engineers</a>. This course provided fundamentals in code development and practical applications in C++.
-
-<li><span style="color: black">[Autumn Semester]</span><br> Passed the course <a href="https://edu.epfl.ch/coursebook/en/deep-learning-for-natural-language-processing-EE-608"> Deep Learning For Natural Language Processing</a>. This course gave good grounding in NLP and allowed for a group project which will hopefully lead to a publication.
-
-<li><span style="color: black">[April 2021]</span><br> Attended EACL Conference virtually.
-
-<li><span style="color: black">[February 2021]</span><br> Joined the Natural Language Understanding group under the supervision of Dr. James Henderson at the Idiap Research Institute as a research assistant.
-
-<li><span style="color: black">[January 2021]</span><br> Completed my MSc in Statistics at the University of Cape Town. My MSc thesis: <a href="https://open.uct.ac.za/handle/11427/35725"> Modelling non-linearity in 3D shapes: A comparative study of Gaussian process morphable models and variational autoencoders for 3D shape data</a>.
+**[January 2021]**   
+Completed my MSc in Statistics at the University of Cape Town. My MSc thesis: [Modelling non-linearity in 3D shapes: A comparative study of Gaussian process morphable models and variational autoencoders for 3D shape data](https://open.uct.ac.za/handle/11427/35725).
   
