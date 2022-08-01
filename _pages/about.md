@@ -21,6 +21,7 @@ I am a PhD candidate of the EDEE department at [EPFL](https://www.epfl.ch/en/), 
 
 <li><span style="color: black">[March 2022]</span><br> Our paper <a href="  https://arxiv.org/abs/2203.03691"> HyperMixer: An MLP-based Green AI Alternative to Transformers </a> is on Arxiv.
 
+
 <a href="{{ site.url }}/updates"> See more... </a>
 
 <!--
