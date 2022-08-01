@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Fabio J. Fehr"
   avatar           : "pp1.jpg"
-  bio              : "Research assistant at IDIAP, Ph.D. student at EPFL"
+  bio              : "Research assistant at Idiap, Ph.D. candidate at EPFL"
   location         : "Idiap, switzerland"
   employer         : # "Idiap"
   pubmed           :
@@ -109,7 +109,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : 
+  twitter          : "FabioFehr"
   vine             :
   weibo            :
   xing             :

@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I'm a Ph.D. student of the EDEE department at [EPFL](https://www.epfl.ch/en/), and research assistant at [IDIAP research institute](https://www.idiap.ch/en). I'm a member of the [Natural Language Understanding](https://www.idiap.ch/en/scientific-research/natural-language-understanding) group under the supervision of [Dr. James Henderson](https://www.idiap.ch/~jhenderson/). I'm currently working on combining deep learning models and bayesian non-parametrics for natural language tasks. I received both undergraduate (2018) and masters (2020) qualifications from [University of Cape Town](https://www.uct.ac.za/) with specializations in statistics. 
+I am a Ph.D. candidate of the EDEE department at [EPFL](https://www.epfl.ch/en/), and research assistant at [Idiap research institute](https://www.idiap.ch/en). I'm a member of the [Natural Language Understanding](https://www.idiap.ch/en/scientific-research/natural-language-understanding) group under the supervision of [Dr. James Henderson](https://www.idiap.ch/~jhenderson/). I'm currently working on combining deep learning models and Bayesian non-parametrics for natural language tasks. I received both undergraduate (2018) and masters (2020) qualifications from [University of Cape Town](https://www.uct.ac.za/) with specializations in statistics. 
 
 ## News
 

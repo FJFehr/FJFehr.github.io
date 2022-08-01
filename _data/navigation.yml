@@ -2,30 +2,21 @@
 main:
   - title: "Research"
     url: /research/
-    
   - title: "Publications"
     url: /publications/
+  - title: "Resume"
+    url: /cv/
+  - title: "Teaching"
+    url: /teaching/
+  - title: "Contact"
+    url: /contact/
 
   # - title: "Talks"
   #   url: /talks/    
-
-  # - title: "Teaching"
-  #   url: /teaching/    
-  #   
   # - title: "Portfolio"
   #   url: /portfolio/
-  #      
-  - title: "Resume"
-    url: /cv/
-  - title: "Blog Posts"
-    url: /year-archive/
-  #   
-
-  #   
+  # - title: "Blog Posts"
+  #   url: /year-archive/
   # - title: "Guide"
   #   url: /markdown/
-  
-  
-  # contact too!
-  - title: "Contact"
-    url: /contact/
+
