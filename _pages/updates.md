@@ -7,10 +7,11 @@ redirect_from:
   - /updates
 ---
 
-<ul style="text-align: justify; list-style: disc">
 ## 2022
 
 <li><span style="color: black">[July 2022]</span><br>  Our paper <a href=" https://arxiv.org/abs/2207.13529"> A Variational AutoEncoder for Transformers with Nonparametric Variational Information Bottleneck </a> is on Arxiv.
+
+## 2021
 
 <li><span style="color: black">[May 2022]</span><br> Attended ACL Conference.
 
@@ -20,7 +21,7 @@ redirect_from:
 
 <li><span style="color: black">[February 2022]</span><br> Successfully passed my candidacy exam. I am officially a PhD candidate of the Electrical Engineering Department of EPFL.
 
-## 2021
+
 
 <li><span style="color: black">[Autumn Semester]</span><br> Passed the course <a href="https://edu.epfl.ch/coursebook/en/scientific-programming-for-engineers-MATH-611#:~:text=Summary,complexity%2C%20optimization%20and%20program%20designs."> Scientific programming for Engineers</a>. This course provided fundamentals in code development and practical applications in C++.
 
