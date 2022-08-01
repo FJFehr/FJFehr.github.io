@@ -10,12 +10,8 @@ redirect_from:
 ### Email:  
 
 Academic: [fabio.fehr@epfl.ch](mailto:fabio.fehr@epfl.ch)
+
 Work: [fabio.fehr@idiap.ch](mailto:fabio.fehr@idiap.ch) 
-
-
-<!--### Telephone: 
-
-Cell: [+41766083386](+41766083386) -->
 
 ### Address:  
 Centre du Parc  

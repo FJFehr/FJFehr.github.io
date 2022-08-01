@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD candidate of the EDEE department at [EPFL](https://www.epfl.ch/en/), and research assistant at [Idiap research institute](https://www.idiap.ch/en). I am a member of the [Natural Language Understanding](https://www.idiap.ch/en/scientific-research/natural-language-understanding) group under the supervision of [Dr. James Henderson](https://www.idiap.ch/~jhenderson/). My current work involves understanding deep attention-based models and their connection with Bayesian non-parametrics for natural language processing. I received both undergraduate (2018) and masters (2020) qualifications from [University of Cape Town](https://www.uct.ac.za/) with specializations in statistics. 
+I am a PhD candidate of the EDEE department at [EPFL](https://www.epfl.ch/en/), and research assistant at [Idiap Research Institute](https://www.idiap.ch/en), in the [Natural Language Understanding](https://www.idiap.ch/en/scientific-research/natural-language-understanding) group under the supervision of [Dr. James Henderson](https://www.idiap.ch/~jhenderson/). My current work involves understanding deep attention-based models and their connection with Bayesian nonparametrics for natural language processing. I received both undergraduate (2018) and masters (2020) qualifications from [University of Cape Town](https://www.uct.ac.za/) with specializations in statistics. 
 
 ## News
 
@@ -17,11 +17,10 @@ I am a PhD candidate of the EDEE department at [EPFL](https://www.epfl.ch/en/), 
 
 <!--<li><span style="color: black">[November 2019]</span><br> Blah blah add papers-->
 
-<li><span style="color: black">[July 2022]</span><br> NVIB Arxiv
+<li><span style="color: black">[July 2022]</span><br>  Our paper <a href=" https://arxiv.org/abs/2207.13529"> A Variational AutoEncoder for Transformers with Nonparametric Variational Information Bottleneck </a> in on Arxiv.
 
-<li><span style="color: black">[March 2022]</span><br> Hypermixer Arxiv
+<li><span style="color: black">[March 2022]</span><br> My first paper <a href="  https://arxiv.org/abs/2203.03691"> HyperMixer: An MLP-based Green AI Alternative to Transformers </a> on Arxiv.
 
-<!--[See more...]({{ site.url }}/updates) -->
 
 <li><span style="color: black">[May 2022]</span><br> Passed the course <a href="https://edu.epfl.ch/coursebook/en/human-language-technology-applications-to-information-access-EE-724?"> Human language technology: applications to information access</a>. This course allowed for fine-tuning skills in NLP and provided a more holistic picture of current research space.
 
