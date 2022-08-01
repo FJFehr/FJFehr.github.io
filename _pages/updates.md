@@ -9,9 +9,12 @@ redirect_from:
 
 ## 2022
 
-<li><span style="color: black">[July 2022]</span><br>  Our paper <a href=" https://arxiv.org/abs/2207.13529"> A Variational AutoEncoder for Transformers with Nonparametric Variational Information Bottleneck </a> is on Arxiv.
+**[July 2022]**   
+Our paper [A Variational AutoEncoder for Transformers with Nonparametric Variational Information Bottleneck](https://arxiv.org/abs/2207.13529) is on Arxiv.
 
 ## 2021
+
+<li><span style="color: black">[July 2022]</span><br>  Our paper <a href=" https://arxiv.org/abs/2207.13529"> A Variational AutoEncoder for Transformers with Nonparametric Variational Information Bottleneck </a> is on Arxiv.
 
 <li><span style="color: black">[May 2022]</span><br> Attended ACL Conference.
 
