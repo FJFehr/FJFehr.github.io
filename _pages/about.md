@@ -21,7 +21,7 @@ I am a PhD candidate of the EDEE department at [EPFL](https://www.epfl.ch/en/), 
 
 <li><span style="color: black">[March 2022]</span><br> Hypermixer Arxiv
 
-[See more...]({{ site.url }}/updates)
+<!--[See more...]({{ site.url }}/updates) -->
 
 <li><span style="color: black">[May 2022]</span><br> Passed the course <a href="https://edu.epfl.ch/coursebook/en/human-language-technology-applications-to-information-access-EE-724?"> Human language technology: applications to information access</a>. This course allowed for fine-tuning skills in NLP and provided a more holistic picture of current research space.
 
@@ -31,10 +31,8 @@ I am a PhD candidate of the EDEE department at [EPFL](https://www.epfl.ch/en/), 
 
 <li><span style="color: black">[February 2022]</span><br> Passed the course <a href="https://edu.epfl.ch/coursebook/en/deep-learning-for-natural-language-processing-EE-608"> Deep Learning For Natural Language Processing</a>. This course gave good grounding in NLP and allowed for a group project which will hopefully lead to a publication.
 
-<li><span style="color: black">[February 2021]</span><br> Joined the <a href="https://www.idiap.ch/en/scientific-research/natural-language-understanding"> Natural Language Understanding</a>  group under the supervision of <a href="https://www.idiap.ch/~jhenderson/"> Dr. James Henderson</a> at the <a href="https://www.idiap.ch/en"> Idiap research institute</a> as a research assistant.
+<li><span style="color: black">[February 2021]</span><br> Joined the Natural Language Understanding group under the supervision of Dr. James Henderson at the Idiap Research Institute as a research assistant.
 
 
-<li><span style="color: black">[December 2020]</span><br> Completed my MSc in Statistics at the <a href="https://www.uct.ac.za/"> University of Cape Town</a>. My MSc thesis: Modelling non-linearity in 3D shapes: A comparative study of Gaussian process morphable models and variational autoencoders for 3D shape data.
+<li><span style="color: black">[December 2020]</span><br> Completed my MSc in Statistics at the University of Cape Town. My MSc thesis: <a href="https://open.uct.ac.za/handle/11427/35725"> Modelling non-linearity in 3D shapes: A comparative study of Gaussian process morphable models and variational autoencoders for 3D shape data</a>.
   
-<!--I have been offered a direct PhD admission to the computer science program at Swiss Federal Institute of Technology Lausanne (EPFL).
-[May 2018] -->
