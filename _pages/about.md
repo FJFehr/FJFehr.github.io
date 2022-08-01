@@ -22,5 +22,5 @@ Attended ACL Conference.
 **[March 2022]**   
 Our paper [HyperMixer: An MLP-based Green AI Alternative to Transformers](https://arxiv.org/abs/2203.03691) is on Arxiv.
 
-<br><br>
+<br>
 <a href="{{ site.url }}/updates"> See more... </a>
