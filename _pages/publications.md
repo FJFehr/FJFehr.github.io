@@ -2,9 +2,12 @@
 title: "Publications"
 permalink: /publications/
 author_profile: true
+redirect_from: 
+  - /publications
+  - /publications.html
 ---
 
-You can also find my papers on <u><a href="https://scholar.google.com/citations?hl=en&user=WaZWY0wAAAAJ">Google Scholar</a>.</u>, <u><a href="https://arxiv.org/search/cs?searchtype=author&query=Fehr%2C+F">Arxiv</a>.</u> and <u><a href="https://deepai.org/profile/fabio-fehr">DeepAI</a>.</u>
+You can also find my papers on [Google Scholar](https://scholar.google.com/citations?hl=en&user=WaZWY0wAAAAJ), [Arxiv](https://arxiv.org/search/cs?searchtype=author&query=Fehr%2C+F) and [DeepAI](https://deepai.org/profile/fabio-fehr).
 
 
 {% include base_path %}
