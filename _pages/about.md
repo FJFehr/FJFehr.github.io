@@ -21,7 +21,7 @@ I am a PhD candidate of the EDEE department at [EPFL](https://www.epfl.ch/en/), 
 
 <li><span style="color: black">[March 2022]</span><br> My first paper <a href="  https://arxiv.org/abs/2203.03691"> HyperMixer: An MLP-based Green AI Alternative to Transformers </a> on Arxiv.
 
-### [See more...]({{ site.url }}/updates)
+[See more...]({{ site.url }}/updates)
 
 <!--
 <li><span style="color: black">[May 2022]</span><br> Passed the course <a href="https://edu.epfl.ch/coursebook/en/human-language-technology-applications-to-information-access-EE-724?"> Human language technology: applications to information access</a>. This course allowed for fine-tuning skills in NLP and provided a more holistic picture of current research space.
