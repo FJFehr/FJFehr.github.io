@@ -19,7 +19,8 @@ I am a PhD candidate of the EDEE department at [EPFL](https://www.epfl.ch/en/), 
 
 <li><span style="color: black">[July 2022]</span><br>  Our paper <a href=" https://arxiv.org/abs/2207.13529"> A Variational AutoEncoder for Transformers with Nonparametric Variational Information Bottleneck </a> is on Arxiv.
 
-<li><span style="color: black">[March 2022]</span><br> Our paper <a href="  https://arxiv.org/abs/2203.03691"> HyperMixer: An MLP-based Green AI Alternative to Transformers </a> is on Arxiv.
+<li><span style="color: black">[March 2022]</span><br> Our paper <a href="  https://arxiv.org/abs/2203.03691"> HyperMixer: An MLP-based Green AI Alternative to Transformers </a> is on Arxiv.   
+
 
 
 <a href="{{ site.url }}/updates"> See more... </a>
