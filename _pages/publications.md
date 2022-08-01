@@ -4,7 +4,7 @@ permalink: /publications/
 author_profile: true
 ---
 
-You can also find my papers on <u><a href="https://scholar.google.com/citations?hl=en&user=WaZWY0wAAAAJ">Google Scholar</a>.</u>
+You can also find my papers on <u><a href="https://scholar.google.com/citations?hl=en&user=WaZWY0wAAAAJ">Google Scholar</a>.</u>, <u><a href="https://arxiv.org/search/cs?searchtype=author&query=Fehr%2C+F">Arxiv</a>.</u> and <u><a href="https://deepai.org/profile/fabio-fehr">DeepAI</a>.</u>
 
 
 {% include base_path %}
