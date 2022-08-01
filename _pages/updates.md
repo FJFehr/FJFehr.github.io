@@ -3,8 +3,7 @@ title: "Updates"
 permalink: /updates/
 author_profile: true
 redirect_from: 
-  - /updates/
-  - /updates.html
+  - /updates
 ---
 
 
