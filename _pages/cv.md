@@ -10,10 +10,10 @@ redirect_from:
 ### Curriculum Vitae
 {% include base_path %}
 
+<!-- Update CV -->
  * You can view my resume here ([Resume](https://FJFehr.github.io/files/Fabio_Fehr_CV_2021.pdf))
 
 ### References letters
-
  * 2021 Associate Professor Tinashe Mutsvangwa: <br /> MSc supervisor at the University of Cape Town ([Reference letter](https://FJFehr.github.io/files/Fabio Fehr 2021PhD Reference - EDEE.pdf))
  * 2020 Associate Professor Francesca Little: <br /> Head of statistics department at the University of Cape Town ([Reference letter](https://FJFehr.github.io/files/Fabio Fehr Reference FLittle.pdf))
  * 2020 Dr Sheetal Silal: <br /> Lecturer and mentor ([Reference letter](https://FJFehr.github.io/files/Reference Letter SSilal.docx.pdf))

@@ -8,10 +8,7 @@ redirect_from:
 ---
 
 ### Natural Language Understanding
-Language abstraction, Text generation, Parsing
+Language Understanding, Text Generation, Machine Translation
 
 ### Machine learning
-Deep Learning, Bayesian non-parametrics
-
-### Shape Modelling
-Gaussian processes, 3D shape reconstruction
+ Attention-based Representation Learning, Deep Learning, Bayesian non-parametrics

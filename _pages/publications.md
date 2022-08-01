@@ -4,11 +4,7 @@ permalink: /publications/
 author_profile: true
 ---
 
-Soon to be updated.
-
-<!-- When you have an EPFL email create a google scholar account -->
-
-<!-- You can also find my papers on <u><a href="https://scholar.google.com/citations?user=PxvktvQAAAAJ&hl=en">Google Scholar</a>.</u>
+You can also find my papers on <u><a href="https://scholar.google.com/citations?hl=en&user=WaZWY0wAAAAJ">Google Scholar</a>.</u>
 
 
 {% include base_path %}
@@ -26,4 +22,3 @@ Under review, 2019.
 FEVER and LANTERN at EMNLP, 2019.  
 ([Paper](https://www.aclweb.org/anthology/D19-6605/),[Code](https://github.com/alirezamshi/AME-CMR),[BibText](https://www.aclweb.org/anthology/D19-6605.bib))
 
--->

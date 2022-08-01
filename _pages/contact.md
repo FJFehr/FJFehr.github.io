@@ -8,9 +8,8 @@ redirect_from:
 ---
 
 ### Email:  
-<!-- Keep in mind for later-->
-<!-- Academic: [alireza.mohammadshahi@epfl.ch](mailto:alireza.mohammadshahi@epfl.ch)  -->
 
+Academic: [fabio.fehr@epfl.ch](mailto:fabio.fehr@epfl.ch)
 Work: [fabio.fehr@idiap.ch](mailto:fabio.fehr@idiap.ch) 
 
 
