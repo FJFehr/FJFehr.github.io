@@ -17,7 +17,7 @@ I am a PhD candidate of the EDEE department at [EPFL](https://www.epfl.ch/en/), 
 Our paper [A Variational AutoEncoder for Transformers with Nonparametric Variational Information Bottleneck](https://arxiv.org/abs/2207.13529) is on Arxiv.
 
 **[May 2022]**   
-Attended ACL Conference.
+Attended the 2022 ACL Conference in Dublin, Ireland.
 
 **[March 2022]**   
 Our paper [HyperMixer: An MLP-based Green AI Alternative to Transformers](https://arxiv.org/abs/2203.03691) is on Arxiv.

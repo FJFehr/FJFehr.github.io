@@ -13,7 +13,7 @@ redirect_from:
 Our paper [A Variational AutoEncoder for Transformers with Nonparametric Variational Information Bottleneck](https://arxiv.org/abs/2207.13529) is on Arxiv.
 
 **[May 2022]**   
-Attended ACL Conference.
+Attended the 2022 ACL Conference in Dublin, Ireland.
 
 **[March 2022]**   
 Our paper [HyperMixer: An MLP-based Green AI Alternative to Transformers](https://arxiv.org/abs/2203.03691) is on Arxiv.
@@ -33,7 +33,7 @@ Passed the course [Scientific programming for Engineers](https://edu.epfl.ch/cou
 Passed the course [Deep Learning For Natural Language Processing](https://edu.epfl.ch/coursebook/en/deep-learning-for-natural-language-processing-EE-608). This course gave good grounding in NLP and allowed for a group project which will hopefully lead to a publication.
 
 **[April 2021]**   
-Attended EACL Conference virtually.
+Virtually attended the 2021 EACL Conference in Kyiv, Ukraine.
 
 **[February 2021]**
 Joined the Natural Language Understanding group under the supervision of Dr. James Henderson at the Idiap Research Institute as a research assistant.
