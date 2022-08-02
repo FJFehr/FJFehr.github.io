@@ -22,7 +22,7 @@ My research interests are in the connections between human cognition and deep le
 
 ## 2018
 
-| <img src="../images/zipfsLaw.png" style="max-width:300px;"> | [**Text Content Classification on News Articles**](https://FJFehr.github.io/files/honours_thesis_FHRFAB001_STRSEA001.pdf),<br> **F. Fehr** S. Soutar <br> **UCT BBusSc Thesis, 2018**. <br> ([paper](https://FJFehr.github.io/files/honours_thesis_FHRFAB001_STRSEA001.pdf)) |
+| <img src="../images/zipfsLaw.png" style="max-width:200px;"> | [**Text Content Classification on News Articles**](https://FJFehr.github.io/files/honours_thesis_FHRFAB001_STRSEA001.pdf),<br> **F. Fehr** S. Soutar <br> **UCT BBusSc Thesis, 2018**. <br> ([paper](https://FJFehr.github.io/files/honours_thesis_FHRFAB001_STRSEA001.pdf)) |
 
 
 <!--
