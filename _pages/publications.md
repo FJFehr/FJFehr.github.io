@@ -20,6 +20,16 @@ My research interests are in the connections between human cognition and deep le
 
 | <img src="../images/GaussianProcessEg1.png" style="max-width:300px;"> | [**Modelling non-linearity in 3D shapes: A comparative study of Gaussian process morphable models and variational autoencoders for 3D shape data**](https://open.uct.ac.za/handle/11427/35725),<br> **F. Fehr** <br> **OpenUCT MSc Thesis, 2021**. <br> ([paper](https://open.uct.ac.za/bitstream/handle/11427/35725/thesis_sci_2021_fehr%20fabio.pdf?sequence=1&isAllowed=y)) |
 
+
+## 2020
+
+| <img src="../images/GaussianProcessEg1.png" style="max-width:300px;"> | [**Modelling non-linearity in 3D shapes: A comparative study of Gaussian process morphable models and variational autoencoders for 3D shape data**](https://open.uct.ac.za/handle/11427/35725),<br> **F. Fehr** <br> **OpenUCT MSc Thesis, 2020**. <br> ([paper](https://open.uct.ac.za/bitstream/handle/11427/35725/thesis_sci_2021_fehr%20fabio.pdf?sequence=1&isAllowed=y)) |
+
+## 2018
+
+| <img src="../images/zipfsLaw.png" style="max-width:300px;"> | [**Text Content Classification on News Articles**](https://FJFehr.github.io/files/honours_thesis_FHRFAB001_STRSEA001.pdf),<br> **F. Fehr** S. Soutar <br> **UCT BBusSc Thesis, 2018**. <br> ([paper](https://FJFehr.github.io/files/honours_thesis_FHRFAB001_STRSEA001.pdf)) |
+
+
 <!--
 ## 2022
 [**A Variational AutoEncoder for Transformers with Nonparametric Variational Information Bottleneck**](https://arxiv.org/abs/2003.13118),
