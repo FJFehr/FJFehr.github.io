@@ -7,7 +7,7 @@ redirect_from:
   - /publications.html
 ---
 
-You can also find my papers on [Google Scholar](https://scholar.google.com/citations?hl=en&user=WaZWY0wAAAAJ), [Arxiv](https://arxiv.org/search/cs?searchtype=author&query=Fehr%2C+F) and [DeepAI](https://deepai.org/profile/fabio-fehr).
+My research interests are in the connections between human cognition and deep learning. Specifically, attention-based representation learning, Bayesian nonparametrics and their applications to text generation tasks. You can find my papers on [Google Scholar](https://scholar.google.com/citations?hl=en&user=WaZWY0wAAAAJ), [Arxiv](https://arxiv.org/search/cs?searchtype=author&query=Fehr%2C+F) and [DeepAI](https://deepai.org/profile/fabio-fehr).
 
 {% include base_path %}
 ## 2022
