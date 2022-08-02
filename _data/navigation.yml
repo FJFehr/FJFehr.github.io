@@ -3,13 +3,13 @@ main:
   - title: "Updates"
     url: /updates/
   - title: "Research"
-    url: /research/
-  - title: "Publications"
     url: /publications/
+  - title: "Teaching"
+    url: /teaching/
+  - title: "Experience"
+    url: /experience/
   - title: "Resume"
     url: /cv/
-  - title: "Experience"
-    url: /teaching/
   - title: "Contact"
     url: /contact/
 
