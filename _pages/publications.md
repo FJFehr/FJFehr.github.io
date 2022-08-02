@@ -16,11 +16,6 @@ My research interests are in the connections between human cognition and deep le
 
 | <img src="../images/HypermixerV5.drawio.png" style="max-width:300px;"> | [**HyperMixer: An MLP-based Green AI Alternative to Transformers**](https://arxiv.org/abs/1911.03561), <br> F. Mai, A. Pannatier, **F. Fehr**, H. Chen, F. Marelli, F. Fleuret, J. Henderson. <br> **Under review, 2022**. <br> ([paper](https://arxiv.org/pdf/2203.03691.pdf)) |
 
-## 2021
-
-| <img src="../images/GaussianProcessEg1.png" style="max-width:300px;"> | [**Modelling non-linearity in 3D shapes: A comparative study of Gaussian process morphable models and variational autoencoders for 3D shape data**](https://open.uct.ac.za/handle/11427/35725),<br> **F. Fehr** <br> **OpenUCT MSc Thesis, 2021**. <br> ([paper](https://open.uct.ac.za/bitstream/handle/11427/35725/thesis_sci_2021_fehr%20fabio.pdf?sequence=1&isAllowed=y)) |
-
-
 ## 2020
 
 | <img src="../images/GaussianProcessEg1.png" style="max-width:300px;"> | [**Modelling non-linearity in 3D shapes: A comparative study of Gaussian process morphable models and variational autoencoders for 3D shape data**](https://open.uct.ac.za/handle/11427/35725),<br> **F. Fehr** <br> **OpenUCT MSc Thesis, 2020**. <br> ([paper](https://open.uct.ac.za/bitstream/handle/11427/35725/thesis_sci_2021_fehr%20fabio.pdf?sequence=1&isAllowed=y)) |
