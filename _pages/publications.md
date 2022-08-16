@@ -14,7 +14,7 @@ My research interests are in the connections between human cognition and deep le
 
 | <img src="../images/denoising_1_crop.png" style="max-width:300px;"> | [**A Variational AutoEncoder for Transformers with Nonparametric Variational Information Bottleneck**](https://arxiv.org/abs/2207.13529), <br> J. Henderson, **F. Fehr** <br> **On Arxiv, 2022**. <br> ([paper](https://arxiv.org/pdf/2207.13529.pdf)) |
 
-| <img src="../images/HypermixerV5.drawio.png" style="max-width:300px;"> | [**HyperMixer: An MLP-based Green AI Alternative to Transformers**](https://arxiv.org/abs/1911.03561), <br> F. Mai, A. Pannatier, **F. Fehr**, H. Chen, F. Marelli, F. Fleuret, J. Henderson. <br> **Under review, 2022**. <br> ([paper](https://arxiv.org/abs/2203.03691)) |
+| <img src="../images/HypermixerV5.drawio.png" style="max-width:300px;"> | [**HyperMixer: An MLP-based Green AI Alternative to Transformers**](https://arxiv.org/abs/2203.03691), <br> F. Mai, A. Pannatier, **F. Fehr**, H. Chen, F. Marelli, F. Fleuret, J. Henderson. <br> **Under review, 2022**. <br> ([paper](https://arxiv.org/pdf/2203.03691.pdf)) |
 
 ## 2020
 
