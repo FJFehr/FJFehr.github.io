@@ -26,6 +26,10 @@ Successfully passed my candidacy exam. I am officially a PhD candidate of the El
 
 ## 2021
 
+**[September 2021]**   
+Participated in the [SciFilmIt Hackathon Geneva 2021](https://www.youtube.com/watch?v=Gm_JDGQxTdQ&ab_channel=SciFilmIt). This let me work with a diverse team to bring a probability concept through a visual medium for the public.
+
+
 **[Autumn Semester]**   
 Passed the course [Scientific programming for Engineers](https://edu.epfl.ch/coursebook/en/scientific-programming-for-engineers-MATH-611#:~:text=Summary,complexity%2C%20optimization%20and%20program%20designs.). This course provided fundamentals in code development and practical applications in C++.
 
