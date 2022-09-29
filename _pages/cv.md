@@ -20,4 +20,6 @@ redirect_from:
  * 2020 Dr Sheetal Silal: <br /> Lecturer and mentor ([contact](http://www.stats.uct.ac.za/stats/people/academic/silal))
  * 2020 Associate Professor Leanne Scott: <br /> Course convener and head tutor coordinator ([contact](http://www.stats.uct.ac.za/stats/people/academic/scott))
  * 2020 Dr Sebnem Er and Mr Graeme Glass: <br /> Academic and industry representatives for online courses I helped create and tutor ([contact](http://www.stats.uct.ac.za/stats/people/academic/er) and [contact](https://www.linkedin.com/in/graeme-glass-a8184722/?originalSubdomain=za))
+ * 2018 DataProphet: <br /> Machine learning engineer internship ([contact](https://dataprophet.com/))
  * 2018-2017 Eight20: <br /> Data science internships ([contact](https://www.eighty20.co.za/))
+
