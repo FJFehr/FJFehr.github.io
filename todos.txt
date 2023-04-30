@@ -1,0 +1,12 @@
+Remember to update.
+Update links like CV if changed - eg picture
+Add to the news section
+when publish include that
+
+Make sure to go through the readme instructions for the installation
+Then:
+bundler exec jekyll build && bash -c 'cd _site && python -m http.server 3000'
+
+How to update:
+- Edit _pages/<name>.md
+- Git push
