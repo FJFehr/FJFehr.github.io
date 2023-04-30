@@ -14,7 +14,7 @@ redirect_from:
  * You can view my resume here ([Resume](https://FJFehr.github.io/files/Fabio_Fehr_CV.pdf)) and reference letters can be provided on request.
 
 ### References 
- * 2022 Dr James Henderson: : <br /> PhD supervisor at Idiap Research Institute ([contact](https://www.idiap.ch/~jhenderson/))
+ * 2022-2025 Dr James Henderson: <br /> PhD supervisor at Idiap Research Institute ([contact](https://www.idiap.ch/~jhenderson/))
  * 2021 Associate Professor Tinashe Mutsvangwa and Mr Allan Clark: <br /> MSc supervisors at the University of Cape Town ([contact](http://www.bme.uct.ac.za/bme/staff) and [contact](http://www.stats.uct.ac.za/stats/people/academic/clark))
  * 2020 Associate Professor Francesca Little: <br /> Head of statistics department (2020) at the University of Cape Town ([contact](http://www.stats.uct.ac.za/stats/people/academic/little))
  * 2020 Dr Sheetal Silal: <br /> Lecturer and mentor ([contact](http://www.stats.uct.ac.za/stats/people/academic/silal))
