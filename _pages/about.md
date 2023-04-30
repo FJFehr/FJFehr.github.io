@@ -16,7 +16,8 @@ I am a 3rd year PhD candidate of the EDEE department at [EPFL](https://www.epfl.
 Attending the 2023 ICLR conference in Kigali, Rwanda
 
 **[January 2023]**
-| <img src="images/nvae_v3.1.png" style="max-width:300px;"> | Our paper [A Variational AutoEncoder for Transformers with Nonparametric Variational Information Bottleneck](https://openreview.net/forum?id=6QkjC_cs03X) is accepted to ICLR 2023. [Presentation](https://recorder-v3.slideslive.com/?share=80761&s=e8bb4385-32e5-4984-8a94-fb8d28775523) [Poster](https://FJFehr.github.io/files/images/NVIB_Poster.pdf) [Code](https://github.com/idiap/nvib)  |
+
+| <img src="images/nvae_v3.1.png" style="max-width:300px;"> | Our paper [A Variational AutoEncoder for Transformers with Nonparametric Variational Information Bottleneck](https://openreview.net/forum?id=6QkjC_cs03X) is accepted to ICLR 2023. [Paper](https://openreview.net/forum?id=6QkjC_cs03X)) ([Presentation](https://recorder-v3.slideslive.com/?share=80761&s=e8bb4385-32e5-4984-8a94-fb8d28775523)) ([Poster](https://FJFehr.github.io/files/images/NVIB_Poster.pdf)) ([Code](https://github.com/idiap/nvib))  |
 
 **[July 2022]**   
 
@@ -24,11 +25,6 @@ Attending the 2023 ICLR conference in Kigali, Rwanda
 
 **[May 2022]**   
 Attended the 2022 ACL Conference in Dublin, Ireland.
-
-**[March 2022]**
-
-| <img src="images/HypermixerV5.drawio.png" style="max-width:300px;"> | Our paper [HyperMixer: An MLP-based Green AI Alternative to Transformers](https://arxiv.org/abs/2203.03691) is on Arxiv. |
-
 
 
 <br>

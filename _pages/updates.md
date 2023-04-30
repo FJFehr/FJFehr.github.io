@@ -7,6 +7,14 @@ redirect_from:
   - /updates
 ---
 
+## 2023
+
+**[May 2023]**
+Attending the 2023 ICLR conference in Kigali, Rwanda
+
+**[January 2023]**
+Our paper [A Variational AutoEncoder for Transformers with Nonparametric Variational Information Bottleneck](https://openreview.net/forum?id=6QkjC_cs03X) is accepted to ICLR 2023. ([Paper](https://openreview.net/forum?id=6QkjC_cs03X)) ([Presentation](https://recorder-v3.slideslive.com/?share=80761&s=e8bb4385-32e5-4984-8a94-fb8d28775523)) ([Poster](https://FJFehr.github.io/files/images/NVIB_Poster.pdf)) ([Code](https://github.com/idiap/nvib))  |
+
 ## 2022
 
 **[July 2022]**   
