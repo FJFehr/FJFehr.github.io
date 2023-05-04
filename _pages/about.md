@@ -12,9 +12,16 @@ I am a 3rd year PhD candidate of the EDEE department at [EPFL](https://www.epfl.
 
 ## News
 
+
+
 **[May 2023]**
 
 Attending the 2023 ICLR conference in Kigali, Rwanda
+
+**[April 2023]**
+
+| <img src="../images/HypermixerV5.drawio.png" style="max-width:300px;"> | Our paper [**HyperMixer: An MLP-based Low Cost Alternative to Transformers**](https://arxiv.org/abs/2203.03691) is accepted to ACL 2023, ([paper](https://arxiv.org/pdf/2203.03691.pdf)) |
+
 
 **[January 2023]**
 
