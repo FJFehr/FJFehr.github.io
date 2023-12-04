@@ -7,7 +7,7 @@ venue: "EPFL"
 date: 2023-10-01
 location: "EPFL, Switzerland"
 ---
-I tutored a masters module in [**Deep Learning for Natural Language Processing**](https://edu.epfl.ch/coursebook/en/deep-learning-for-natural-language-processing-EE-608) at [EPFL](https://www.epfl.ch/en/)
+I tutored a masters module in [Deep Learning for Natural Language Processing](https://edu.epfl.ch/coursebook/en/deep-learning-for-natural-language-processing-EE-608) at [EPFL](https://www.epfl.ch/en/)
 
 Takeaways
 ======

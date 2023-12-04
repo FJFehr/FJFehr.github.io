@@ -18,12 +18,12 @@ Our work on Learning to Abstract with Nonparametric Variational Information Bott
 
 **[December 2023]**
 
-| <img src="../images/pretrainedNVIB.png" style="max-width:300px;"> | Our paper [**Nonparametric Variational Regularisation of Pretrained Transformers**](https://arxiv.org/pdf/2312.00662.pdf) is on ArXiv. |
+| <img src="images/pretrainedNVIB.png" style="max-width:300px;"> | Our paper [**Nonparametric Variational Regularisation of Pretrained Transformers**](https://arxiv.org/pdf/2312.00662.pdf) is on ArXiv. |
 
 
 **[October 2023]**
 
-| <img src="../images/NVIBSaTransformer.png" style="max-width:300px;"> | Our short paper [**Learning to Abstract with Nonparametric Variational Information Bottleneck**](https://openreview.net/pdf?id=vU0KbvQ91x) is accepted to findings of EMNLP 2023 in Singapore, ([Paper](https://openreview.net/pdf?id=vU0KbvQ91x)) ([Demo](https://huggingface.co/spaces/FJFehr/NVIB-Self-Attention-Demo)) ([Poster](https://FJFehr.github.io/files/NVIB_SA_poster.pdf)) ([Code](https://github.com/idiap/nvib_selfattention)) |
+| <img src="images/NVIBSaTransformer.png" style="max-width:300px;"> | Our short paper [**Learning to Abstract with Nonparametric Variational Information Bottleneck**](https://openreview.net/pdf?id=vU0KbvQ91x) is accepted to findings of EMNLP 2023 in Singapore, ([Paper](https://openreview.net/pdf?id=vU0KbvQ91x)) ([Demo](https://huggingface.co/spaces/FJFehr/NVIB-Self-Attention-Demo)) ([Poster](https://FJFehr.github.io/files/NVIB_SA_poster.pdf)) ([Code](https://github.com/idiap/nvib_selfattention)) |
 
 
 **[Autumn Semester 2023]**
@@ -50,7 +50,7 @@ Attending the 2023 ICLR conference in Kigali, Rwanda
 
 **[April 2023]**
 
-| <img src="../images/HypermixerV5.drawio.png" style="max-width:300px;"> | Our paper [**HyperMixer: An MLP-based Low Cost Alternative to Transformers**](https://arxiv.org/abs/2203.03691) is accepted to ACL 2023, ([Paper](https://arxiv.org/pdf/2203.03691.pdf)) ([Poster](https://FJFehr.github.io/files/Hypermixer_Poster.pdf)) ([Code](https://github.com/idiap/hypermixing))|
+| <img src="images/HypermixerV5.drawio.png" style="max-width:300px;"> | Our paper [**HyperMixer: An MLP-based Low Cost Alternative to Transformers**](https://arxiv.org/abs/2203.03691) is accepted to ACL 2023, ([Paper](https://arxiv.org/pdf/2203.03691.pdf)) ([Poster](https://FJFehr.github.io/files/Hypermixer_Poster.pdf)) ([Code](https://github.com/idiap/hypermixing))|
 
 
 **[January 2023]**

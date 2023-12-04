@@ -11,7 +11,7 @@ redirect_from:
 {% include base_path %}
 
 <!-- Update CV -->
- * You can view my resume here ([Resume](https://FJFehr.github.io/files/Fabio_Fehr_CV.pdf)) and reference letters can be provided on request.
+You can view my resume here ([Resume](https://FJFehr.github.io/files/Fabio_Fehr_CV.pdf)) and reference letters can be provided on request.
 
 ### Interview
 
