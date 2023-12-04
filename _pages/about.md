@@ -32,12 +32,12 @@ Teaching for [**Deep Learning for Natural Language Processing**](https://edu.epf
 
 **[July 2023]**
 
-Joined the company [**Defiant**](https://www.defiant.com/) for a week in Canada as an AI consultant.  
+Joined the company [**Defiant**](https://www.defiant.com/) for a week in Banff, Canada as an AI consultant.  
 
 
 **[June 2023]**
 
-Attending the [**Generative Modeling Summer School**](https://gemss.ai/) GeMSS 2023 in Copenhagen.  
+Attending the [**Generative Modeling Summer School**](https://gemss.ai/) GeMSS 2023 in Copenhagen, Denmark.  
 
 
 **[May 2023]**

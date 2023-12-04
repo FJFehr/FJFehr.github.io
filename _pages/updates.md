@@ -11,7 +11,7 @@ redirect_from:
 
 **[December 2023]**
 
-Our work on Learning to Abstract with Nonparametric Variational Information Bottleneck will be presented at the [**Black Box NLP Workshop**](https://blackboxnlp.github.io/) EMNLP in Singapore!
+Our work on [**Learning to Abstract with Nonparametric Variational Information Bottleneck**](https://openreview.net/pdf?id=vU0KbvQ91x) will be presented at the [**Black Box NLP Workshop**](https://blackboxnlp.github.io/) EMNLP in Singapore!
 
 **[December 2023]**
 
