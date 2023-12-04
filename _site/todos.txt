@@ -2,10 +2,12 @@ Remember to update.
 Add to the news section
 when publish include that
 
-If host locally (not necessary)
+If host locally - necessary to update the _site folder
 Make sure to go through the readme instructions for the installation
 
 bundler exec jekyll build && bash -c 'cd _site && python -m http.server 3000'
+
+We then need copy the _site folder into the public of idiap so that it displays when we click from NLU
 
 How to update:
 - Edit _pages/<name>.md 
