@@ -27,14 +27,19 @@ Our short paper [**Learning to Abstract with Nonparametric Variational Informati
 
 Teaching for [**Deep Learning for Natural Language Processing**](https://edu.epfl.ch/coursebook/en/deep-learning-for-natural-language-processing-EE-608) at EPFL. 
 
+
+**[August 2023]**
+
+Interviewed by the Bayes Newsletter of the South African Statistical Association (SASA) - [**The Journey from Undergraduate to PhD**](https://FJFehr.github.io/files/interview.pdf)
+
 **[July 2023]**
 
-Joined the company [**Defiant**](https://www.defiant.com/) for a week in Canada as an AI consultant.  
+Joined the company [**Defiant**](https://www.defiant.com/) for a week in Banff, Canada as an AI consultant.  
 
 
 **[June 2023]**
 
-Attending the [**Generative Modeling Summer School**](https://gemss.ai/) GeMSS 2023 in Copenhagen.  
+Attending the [**Generative Modeling Summer School**](https://gemss.ai/) GeMSS 2023 in Copenhagen, Denmark.  
 
 
 **[May 2023]**

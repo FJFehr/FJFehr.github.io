@@ -13,6 +13,10 @@ redirect_from:
 <!-- Update CV -->
  * You can view my resume here ([Resume](https://FJFehr.github.io/files/Fabio_Fehr_CV.pdf)) and reference letters can be provided on request.
 
+### Interview
+
+Interviewed by the Bayes Newsletter (August 2023) of the South African Statistical Association (SASA) - [**The Journey from Undergraduate to PhD**](https://FJFehr.github.io/files/interview.pdf)
+
 ### References 
  * 2022-2025 Dr James Henderson: <br /> PhD supervisor at Idiap Research Institute ([contact](https://www.idiap.ch/~jhenderson/))
  * 2021 Associate Professor Tinashe Mutsvangwa and Mr Allan Clark: <br /> MSc supervisors at the University of Cape Town ([contact](http://www.bme.uct.ac.za/bme/staff) and [contact](http://www.stats.uct.ac.za/stats/people/academic/clark))

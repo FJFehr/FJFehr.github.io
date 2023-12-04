@@ -30,6 +30,10 @@ Our work on Learning to Abstract with Nonparametric Variational Information Bott
 
 Teaching for [**Deep Learning for Natural Language Processing**](https://edu.epfl.ch/coursebook/en/deep-learning-for-natural-language-processing-EE-608) at EPFL. 
 
+**[August 2023]**
+
+Interviewed by the Bayes Newsletter of the South African Statistical Association (SASA) - [**The Journey from Undergraduate to PhD**](https://FJFehr.github.io/files/interview.pdf)
+
 **[July 2023]**
 
 Joined the company [**Defiant**](https://www.defiant.com/) for a week in Banff, Canada as an AI consultant.  
