@@ -10,9 +10,7 @@ redirect_from:
 
 I am a final year PhD candidate of the EDEE department at [EPFL](https://www.epfl.ch/en/), and research assistant at [Idiap Research Institute](https://www.idiap.ch/en), in the [Natural Language Understanding](https://www.idiap.ch/en/scientific-research/natural-language-understanding) group under the supervision of [Dr. James Henderson](https://www.idiap.ch/~jhenderson/). My current research involves understanding deep attention-based models and their connection with Bayesian nonparametrics for Natural Language Processing. I received both undergraduate (2018) and masters (2020) qualifications from [University of Cape Town](https://www.uct.ac.za/) with specializations in statistics. 
 
-## About me
-
-I advocate for leadership by example. I believe that the values of honesty, humility and kindness are the ultimate form of optimisation – free to give and invaluable to receive. I am passionate and tenacious in my research and think that the progress direction is more important than the progress magnitude. My happiest state: rigorous mental stimulation, relaxing social interaction and regular outdoor exercise. For leisure, I enjoy spending time in nature: sunshine, sea and snowy mountains. 
+I advocate for leadership by example. I believe that the values: honesty, humility and kindness are the ultimate form of optimisation – free to give and invaluable to receive. I am passionate and tenacious in my research and think that the progress direction is more important than the progress magnitude. My happiest state: rigorous mental stimulation, relaxing social interaction and regular outdoor exercise. For leisure, I enjoy spending time in nature: sunshine, sea and snowy mountains. 
 
 ## News
 
