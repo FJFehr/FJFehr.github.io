@@ -8,11 +8,15 @@ redirect_from:
   - /about.html
 ---
 
-I am a final year PhD candidate of the EDEE department at [EPFL](https://www.epfl.ch/en/), and research assistant at [Idiap Research Institute](https://www.idiap.ch/en), in the [Natural Language Understanding](https://www.idiap.ch/en/scientific-research/natural-language-understanding) group under the supervision of [Dr. James Henderson](https://www.idiap.ch/~jhenderson/). My current research involves understanding deep attention-based models and their connection with Bayesian nonparametrics for Natural Language Processing. I received both undergraduate (2018) and masters (2020) qualifications from [University of Cape Town](https://www.uct.ac.za/) with specializations in statistics. 
+I am a final year PhD candidate of the Electrical Engineering department at [EPFL](https://www.epfl.ch/en/), and research assistant at [Idiap Research Institute](https://www.idiap.ch/en), in the [Natural Language Understanding](https://www.idiap.ch/en/scientific-research/natural-language-understanding) group under the supervision of [Dr. James Henderson](https://www.idiap.ch/~jhenderson/). My PhD research involves understanding deep attention-based models and their connection with Bayesian nonparametrics for Natural Language Processing. I received both undergraduate (2018) and masters (2020) qualifications from [University of Cape Town](https://www.uct.ac.za/) with specializations in statistics. 
 
 I advocate for leadership by example. I believe that the values: honesty, humility and kindness are the ultimate form of optimisation – free to give and invaluable to receive. I am passionate and tenacious in my research and think that the progress direction is more important than the progress magnitude. My happiest state: rigorous mental stimulation, relaxing social interaction and regular outdoor exercise. For leisure, I enjoy spending time in nature: sunshine, sea and snowy mountains. 
 
 ## News
+
+**[January 2024]**
+
+Reviewed for NAACL2024 as an emergency reviewer.
 
 **[December 2023]**
 
@@ -30,7 +34,7 @@ Our work on Learning to Abstract with Nonparametric Variational Information Bott
 
 **[Autumn Semester 2023]**
 
-Teaching for [**Deep Learning for Natural Language Processing**](https://edu.epfl.ch/coursebook/en/deep-learning-for-natural-language-processing-EE-608) at EPFL. 
+Teaching for [**PhD: Deep Learning for Natural Language Processing**](https://edu.epfl.ch/coursebook/en/deep-learning-for-natural-language-processing-EE-608) at EPFL and [**Masters: Natural Language Processing**](https://unidistance.ch/en/mathematics-and-computer-science/master-in-artificial-intelligence/programme-of-the-master-in-artificial-intelligence) at UniDistance.
 
 **[August 2023]**
 

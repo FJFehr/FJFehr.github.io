@@ -7,6 +7,12 @@ redirect_from:
   - /updates
 ---
 
+## 2024
+
+**[January 2024]**
+
+Reviewed for NAACL2024 as an emergency reviewer.
+
 ## 2023
 
 **[December 2023]**
@@ -25,8 +31,7 @@ Our short paper [**Learning to Abstract with Nonparametric Variational Informati
 
 **[Autumn Semester 2023]**
 
-Teaching for [**Deep Learning for Natural Language Processing**](https://edu.epfl.ch/coursebook/en/deep-learning-for-natural-language-processing-EE-608) at EPFL. 
-
+Teaching for [**PhD: Deep Learning for Natural Language Processing**](https://edu.epfl.ch/coursebook/en/deep-learning-for-natural-language-processing-EE-608) at EPFL and [**Masters: Natural Language Processing**](https://unidistance.ch/en/mathematics-and-computer-science/master-in-artificial-intelligence/programme-of-the-master-in-artificial-intelligence) at UniDistance.
 
 **[August 2023]**
 
