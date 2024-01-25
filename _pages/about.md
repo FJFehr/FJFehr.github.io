@@ -20,7 +20,7 @@ Reviewed for NAACL2024 as an emergency reviewer.
 
 **[December 2023]**
 
-Our work on Learning to Abstract with Nonparametric Variational Information Bottleneck will be presented at the [**Black Box NLP Workshop**](https://blackboxnlp.github.io/) EMNLP in Singapore!
+Our work on Learning to Abstract with Nonparametric Variational Information Bottleneck will be presented at the [**Black Box NLP Workshop**](https://blackboxnlp.github.io/) EMNLP2023 in Singapore!
 
 **[December 2023]**
 
