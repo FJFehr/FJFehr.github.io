@@ -9,6 +9,14 @@ redirect_from:
 
 ## 2024
 
+**[April 2024]**
+
+Reveiwing for the journal [**IEEE Transactions on Pattern Analysis and Machine Intelligence**](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34)
+
+**[March 2024]**
+
+Presented a seminar to the [**Department of Statistical Sciences**](https://science.uct.ac.za/department-statistics) at the [**University of Cape Town**](https://uct.ac.za/). The talk was on the evolution of NLP, the attention mechanism and my PhD Research. See the [slides](https://FJFehr.github.io/files/UCT_Seminar_final.pdf).
+
 **[January 2024]**
 
 Reviewed for NAACL2024 as an emergency reviewer.
