@@ -7,12 +7,16 @@ redirect_from:
   - /about/
   - /about.html
 ---
-
-I am a final year PhD candidate of the Electrical Engineering department at [EPFL](https://www.epfl.ch/en/), and research assistant at [Idiap Research Institute](https://www.idiap.ch/en), in the [Natural Language Understanding](https://www.idiap.ch/en/scientific-research/natural-language-understanding) group under the supervision of [Dr. James Henderson](https://www.idiap.ch/~jhenderson/). My PhD research involves understanding deep attention-based models and their connection with Bayesian nonparametrics for Natural Language Processing. I received both undergraduate (2018) and masters (2020) qualifications from [University of Cape Town](https://www.uct.ac.za/) with specializations in statistics. 
+    
+I am a final year PhD candidate of the Electrical Engineering department at [EPFL](https://www.epfl.ch/en/), and research assistant at [Idiap Research Institute](https://www.idiap.ch/en), in the [Natural Language Understanding](https://www.idiap.ch/en/scientific-research/natural-language-understanding) group under the supervision of [Dr. James Henderson](https://www.idiap.ch/~jhenderson/). Currently a research intern at Amazon, Berlin working in the space of retrieval augmented generation (RAG) and Large Language Models (LLMs) for code generation with [Prabhu Teja](https://prabhuteja12.github.io/) and [Giovanni Zappella](https://giovannizappella.github.io/). My PhD research involves understanding deep attention-based models and their connection with Bayesian nonparametrics for Natural Language Processing. I received both undergraduate (2018) and masters (2020) qualifications from [University of Cape Town](https://www.uct.ac.za/) with specializations in statistics. 
 
 I advocate for leadership by example. I believe that the values: honesty, humility and kindness are the ultimate form of optimisation – free to give and invaluable to receive. I am passionate and tenacious in my research and think that the progress direction is more important than the progress magnitude. My happiest state: rigorous mental stimulation, relaxing social interaction and regular outdoor exercise. For leisure, I enjoy spending time in nature: sunshine, sea and snowy mountains. 
 
 ## News
+
+**[July 2024]**
+
+Starting a research internship at Amazon, Berlin. I will be working in the space of retrieval augmented generation (RAG) and Large Language Models (LLMs) for code generation with [Prabhu Teja](https://prabhuteja12.github.io/) and [Giovanni Zappella](https://giovannizappella.github.io/)
 
 **[April 2024]**
 

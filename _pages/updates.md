@@ -9,6 +9,11 @@ redirect_from:
 
 ## 2024
 
+**[July 2024]**
+
+Starting a research internship at Amazon, Berlin. I will be working in the space of retrieval augmented generation (RAG) and Large Language Models (LLMs) for code generation with [Prabhu Teja](https://prabhuteja12.github.io/) and [Giovanni Zappella](https://giovannizappella.github.io/)
+
+
 **[April 2024]**
 
 Reveiwing for the journal [**IEEE Transactions on Pattern Analysis and Machine Intelligence**](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34)
