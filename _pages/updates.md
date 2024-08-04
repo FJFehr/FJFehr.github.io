@@ -9,6 +9,11 @@ redirect_from:
 
 ## 2024
 
+
+**[August 2024]**
+
+Our paper [**Nonparametric Variational Regularisation of Pretrained Transformers**](https://arxiv.org/pdf/2312.00662.pdf) has been accepted to be presented at [COLM 2024](https://colmweb.org/)!
+
 **[July 2024]**
 
 Starting a research internship at Amazon, Berlin. I will be working in the space of retrieval augmented generation (RAG) and Large Language Models (LLMs) for code generation with [Prabhu Teja](https://prabhuteja12.github.io/) and [Giovanni Zappella](https://giovannizappella.github.io/)
