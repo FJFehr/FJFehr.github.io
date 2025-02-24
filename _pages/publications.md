@@ -8,11 +8,11 @@ redirect_from:
 ---
 
 
-My research interests are in the connections between human cognition and deep learning. Specifically, understanding the connection between deep attention-based models and Bayesian nonparametrics for Natural Language Processing. You can find my papers on [Google Scholar](https://scholar.google.com/citations?hl=en&user=WaZWY0wAAAAJ), [Arxiv](https://arxiv.org/search/cs?searchtype=author&query=Fehr%2C+F) and [DeepAI](https://deepai.org/profile/fabio-fehr).
+My research interests are in the connections between human cognition and deep learning. Specifically, understanding the connection between deep attention-based models and Bayesian nonparametrics for Natural Language Processing. You can find my papers on [Google Scholar](https://scholar.google.com/citations?hl=en&user=WaZWY0wAAAAJ).
 
 ## 2024
 
-| <img src="../images/pretrainedNVIB.png" style="max-width:300px;"> | [**Nonparametric Variational Regularisation of Pretrained Transformers**](https://arxiv.org/pdf/2312.00662.pdf) <br> **F. Fehr**,  J. Henderson <br> **COLM, 2024**. <br> ([Paper](https://arxiv.org/pdf/2312.00662.pdf)) |
+| <img src="../images/pretrainedNVIB.png" style="max-width:300px;"> | [**Nonparametric Variational Regularisation of Pretrained Transformers**](https://arxiv.org/pdf/2312.00662.pdf) <br> **F. Fehr**,  J. Henderson <br> **COLM, 2024**. <br> ([Paper](https://openreview.net/forum?id=Zu8OWNUC0u#discussion)) ([Poster](https://FJFehr.github.io/files/NV_regularisation_poster.pdf)) ([Code](https://github.com/idiap/nvr_transformers)) |
 
 ## 2023
 

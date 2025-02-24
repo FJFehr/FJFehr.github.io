@@ -18,7 +18,7 @@ You can view my resume here ([Resume](https://FJFehr.github.io/files/Fabio_Fehr_
 Interviewed by the Bayes Newsletter (August 2023) of the South African Statistical Association (SASA) - [**The Journey from Undergraduate to PhD**](https://FJFehr.github.io/files/interview.pdf)
 
 ### References
- * 2024 Amazon: <br /> Internship manager Dr Giovanni Zappella at Amazon Berlin ([contact](https://giovannizappella.github.io/))
+ * 2024 Amazon: <br /> Internship manager Dr Giovanni Zappella ([contact](https://giovannizappella.github.io/)) and mentor Dr Prabhu Teja Sivaprasad ([contact](https://prabhuteja12.github.io/)) at Amazon Berlin
  * 2022-2025 Dr James Henderson: <br /> PhD supervisor at Idiap Research Institute ([contact](https://www.idiap.ch/~jhenderson/))
  * 2021 Associate Professor Tinashe Mutsvangwa and Mr Allan Clark: <br /> MSc supervisors at the University of Cape Town ([contact](http://www.bme.uct.ac.za/bme/staff) and [contact](http://www.stats.uct.ac.za/stats/people/academic/clark))
  * 2020 Associate Professor Francesca Little: <br /> Head of statistics department (2020) at the University of Cape Town ([contact](http://www.stats.uct.ac.za/stats/people/academic/little))
