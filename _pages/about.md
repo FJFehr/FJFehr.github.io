@@ -14,6 +14,16 @@ redirect_from:
 
 ## News
 
+**[December 2024]**
+
+Completed my research internship at Amazon, Berlin. They are tackling ambitious, unsolved problems, building AI agents to assist software engineers. I worked in improving retrieval for code editing agents. Special thanks to [Prabhu Teja](https://prabhuteja12.github.io/) and [Giovanni Zappella](https://giovannizappella.github.io/)!
+
+
+**[November 2024]**
+
+Presented at the 30 years of Neural Networks Festschrift for [Dr. James Henderson](https://www.idiap.ch/~jhenderson/). The talk was a light-hearted story of my PhD journey. See the [slides](https://FJFehr.github.io/files/Jamie Festschrift.pdf).
+
+
 **[August 2024]**
 
 | <img src="images/pretrainedNVIB.png" style="max-width:300px;"> | Our paper [**Nonparametric Variational Regularisation of Pretrained Transformers**](https://arxiv.org/pdf/2312.00662.pdf) has been accepted to be presented at [COLM 2024](https://colmweb.org/)! |
@@ -22,18 +32,6 @@ redirect_from:
 **[July 2024]**
 
 Starting a research internship at Amazon, Berlin. I will be working in the space of retrieval augmented generation (RAG) and Large Language Models (LLMs) for code generation with [Prabhu Teja](https://prabhuteja12.github.io/) and [Giovanni Zappella](https://giovannizappella.github.io/)
-
-**[April 2024]**
-
-Reveiwing for the journal [**IEEE Transactions on Pattern Analysis and Machine Intelligence**](https://ieeexplore.ieee.org/xpl/RecentIssue.jsp?punumber=34)
-
-**[March 2024]**
-
-Presented a seminar to the [**Department of Statistical Sciences**](https://science.uct.ac.za/department-statistics) at the [**University of Cape Town**](https://uct.ac.za/). The talk was on the evolution of NLP, the attention mechanism and my PhD Research. See the [slides](https://FJFehr.github.io/files/UCT_Seminar_final.pdf).
-
-**[January 2024]**
-
-Reviewed for NAACL2024 as an emergency reviewer.
 
 
 <br>

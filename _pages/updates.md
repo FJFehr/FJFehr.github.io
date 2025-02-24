@@ -9,6 +9,14 @@ redirect_from:
 
 ## 2024
 
+**[December 2024]**
+
+Completed my research internship at Amazon, Berlin. They are tackling ambitious, unsolved problems, building AI agents to assist software engineers. I worked in improving retrieval for code editing agents. Special thanks to [Prabhu Teja](https://prabhuteja12.github.io/) and [Giovanni Zappella](https://giovannizappella.github.io/)!
+
+
+**[November 2024]**
+
+Presented at the 30 years of Neural Networks Festschrift for [Dr. James Henderson](https://www.idiap.ch/~jhenderson/). The talk was a light-hearted story of my PhD journey. See the [slides](https://FJFehr.github.io/files/Jamie Festschrift.pdf).
 
 **[August 2024]**
 
