@@ -4,12 +4,12 @@ date: 2025-02-25
 permalink: /fablogio/research-internship-at-amazon-berlin/
 ---
 
+**TL;DR** My time living in Berlin and working with Amazon was tough but really fulfilling and rewarding. I have a huge appreciation for the team for the opportunity!
+
 <figure>
   <img src="/assets/images/berlin/wall.jpeg" alt="Berlin Wall" style="width: 100%;">
-  <figcaption style="text-align: center; font-size: 14px; color: gray;">Mauerpark Berlin</figcaption>
+  <figcaption style="text-align: center; font-size: 14px; color: gray;">Mauerpark, Berlin: I captured a little culture at the wall. </figcaption>
 </figure>
-
-**TL;DR** My time living in Berlin and working with Amazon was tough but really fulfilling and rewarding. I have a huge appreciation for the team for the opportunity!
 
 I will write this in 3 parts: the **challenges**, my **growth**, and finally, my **appreciation** for the team.
 
@@ -29,7 +29,7 @@ Now that the adversity is there, lets consider some growth!
 
 <figure>
   <img src="/assets/images/berlin/kiting.jpeg" alt="Kiteskating at Tempelhofer Feld." style="width: 100%;">
-  <figcaption style="text-align: center; font-size: 14px; color: gray;">Kiteskating at Tempelhofer Feld.</figcaption>
+  <figcaption style="text-align: center; font-size: 14px; color: gray;">Tempelhofer Feld, Berlin: Me learning to catch the wind.</figcaption>
 </figure>
 
 **Amazon’s leadership principles are actually interesting.** At first, I glazed over them—like blah blah, nah not for me. But on reflection, they hold some truth. "Customer Obsession" taught me to focus on the problem and work backward, not just follow the fast fashion of AI today. "Bias for Action" and "Insist on the Highest Standards" seemed contradictory at first. I even joked about "Bias for Action" as an excuse for bugs in my code! But these highlight the speed-to-quality ratio. There’s no free lunch. Focus on what really matters. "Have Backbone; Disagree and Commit" was tough for me, especially when I respected my colleagues' opinions. In this spirit, I disagree with the principle that “Leaders are right a lot.” I respect leaders who lead by example. How you handle being wrong is more important than always being right. I’d prefer a leader who’s honest, willing to change, and less often right.
@@ -40,7 +40,7 @@ Now that the adversity is there, lets consider some growth!
 
 <figure>
   <img src="/assets/images/berlin/rainbow.jpeg" alt="Rainbow at sunset where I lived in Ostkreuz." style="width: 100%;">
-  <figcaption style="text-align: center; font-size: 14px; color: gray;">Rainbow at sunset where I lived in Ostkreuz.</figcaption>
+  <figcaption style="text-align: center; font-size: 14px; color: gray;">Ostkreuz, Berlin: Rainbow at sunset where I lived.</figcaption>
 </figure>
 
 Lets finish it off with some **appreciation**. 
@@ -55,5 +55,5 @@ I had the privilege of working with the NGDE (Next Generation Developer Experien
 
 <figure>
   <img src="/assets/images/berlin/polaroids.jpeg" alt="A collection of polaroids at the kite festival." style="width: 100%;">
-  <figcaption style="text-align: center; font-size: 14px; color: gray;">A collection of polaroids I took at the kite festival.</figcaption>
+  <figcaption style="text-align: center; font-size: 14px; color: gray;">Tempelhofer Feld, Berlin: A collection of polaroids from the kite festival with friends.</figcaption>
 </figure>
