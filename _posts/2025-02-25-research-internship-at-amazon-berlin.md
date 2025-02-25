@@ -10,6 +10,8 @@ I will write this in 3 parts: the **challenges**, my **growth**, and finally, my
 
 It may seem strange and a bit negative to start with **challenges**, but it provides context for growth.
 
+## Challenges: Bring on the adversity
+
 **Interviews are tough.** Interestingly, one of my worst interviews with the FAANG companies was the one I got the offer for. Subsequently, I learned that it was all about fit. My NLP skills matched what they needed. I learned that it’s valuable to pause, say “I don’t know, but…,” and show your reasoning. Honesty and clarity go a long way. Also, I was lucky. Let's not forget that.
 
 **Berlin was new and challenging.** I realized I cool my nerves with nature, exercise, and social interaction. The weather and environment were dark, and it was my first time in a city with less natural beauty than the Swiss mountains or South African coastline (privileged, I know). Outdoor sports were harder to find, and in a new city with few friends, meeting people was tough, especially without knowing Berlin’s culture or German. Bureaucracy was slow with a love for paper and post—perhaps they’ll upgrade to fax.
@@ -18,6 +20,8 @@ It may seem strange and a bit negative to start with **challenges**, but it prov
 
 Now that the adversity is there, lets consider some **growth**!
 
+## Growth: Okay, but what did you learn?
+
 **Amazon’s leadership principles are actually interesting.** At first, I glazed over them—like blah blah, nah not for me. But on reflection, they hold some truth. "Customer Obsession" taught me to focus on the problem and work backward, not just follow the fast fashion of AI today. "Bias for Action" and "Insist on the Highest Standards" seemed contradictory at first. I even joked about "Bias for Action" as an excuse for bugs in my code! But these highlight the speed-to-quality ratio. There’s no free lunch. Focus on what really matters. "Have Backbone; Disagree and Commit" was tough for me, especially when I respected my colleagues' opinions. In this spirit, I disagree with the principle that “Leaders are right a lot.” I respect leaders who lead by example. How you handle being wrong is more important than always being right. I’d prefer a leader who’s honest, willing to change, and less often right.
 
 **New skills.** My need for social interaction led me to host two braais (South African BBQs) on the rooftop. To do this, I first had to get a grill certificate and full fire marshalling qualification. I also took private German classes twice a week. "Möchtest du ein Feierabendbier im Späti?",  "Jein, genau", "Supergeil!" - This helped me make new friends. My need for exercise and natural beauty drove me to learn how to fly a kite with a skateboard at the abandoned airport, Tempelhofer Feld. Otherwise, running in Berlin with colleagues was a lot of fun! At work, I learned to adapt to a new domain, adjust to new infrastructure, and improve skills like planning, prioritizing, and communication. Most importantly, I learned the value of a cohesive team.
@@ -25,6 +29,8 @@ Now that the adversity is there, lets consider some **growth**!
 **Adapting to a New Place.** I believe adaptation is one of the most important skills today. Every place has something special, and I try to embrace it. In Cape Town, it's the wildness, sunsets, ocean, and braai. In Switzerland, it's security, punctuality, pristine mountains, and cheese. Berlin? A melting pot of culture. Graffiti, personal expression, bold hairstyles, black clothing. Alongside that, ambitious work, running and wind sports, vegetarian cooking, and an incredible music scene. The food was just as diverse, from spicy hand-pulled noodles to endless plant-based options, which pushed me to experiment with vegetarian cooking. But the live music was the real highlight—classical, jazz, rock, techno. Some of the best in the world!
 
 Lets finish it off with some **Appreciation**. 
+
+## Appreciation: credit where its due.
 
 I had the privilege of working with the NGDE (Next Generation Developer Experience) team during my research internship at Amazon Berlin. They are tackling ambitious, unsolved problems, building AI agents to assist software engineers.
 
