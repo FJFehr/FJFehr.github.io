@@ -4,10 +4,6 @@ date: 2025-02-25
 permalink: /fablogio/research-internship-at-amazon-berlin/
 ---
 
-<figure>
-  <img src="/assets/images/berlin/wall.jpeg" alt="Berlin Wall" style="width: 100%;">
-  <figcaption style="text-align: center; font-size: 14px; color: gray;">Mauerpark Berlin</figcaption>
-</figure>
 
 **TL;DR** My time living in Berlin and working with Amazon was tough but really fulfilling and rewarding. I have a huge appreciation for the team for the opportunity!
 
