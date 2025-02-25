@@ -4,10 +4,10 @@ main:
     url: /updates/
   - title: "Research"
     url: /publications/
-  - title: "Teaching"
-    url: /teaching/
   - title: "Experience"
     url: /experience/
+  - title: "Teaching"
+    url: /teaching/
   - title: "Blogs"
     url: /fablogio/
   - title: "Resume"
