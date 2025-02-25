@@ -9,6 +9,10 @@ permalink: /fablogio/research-internship-at-amazon-berlin/
   <figcaption>Mauerpark Berlin</figcaption>
 </figure>
 
+<img src="images/pretrainedNVIB.png" style="max-width:300px;">
+
+<img src="files/blog/berlin/wall.jpeg" style="max-width:300px;">
+
 **TL;DR** My time living in Berlin and working with Amazon was tough but really fulfilling and rewarding. I have a huge appreciation for the team for the opportunity!
 
 I will write this in 3 parts: the **challenges**, my **growth**, and finally, my **appreciation** for the team.
