@@ -1,5 +1,5 @@
 ---
-title: "Machine Learning Engineer: Internship"
+title: "DataProphet: Machine Learning Engineer - Internship"
 collection: teaching
 type: "Internship"
 permalink: /teaching/2018-DataProphet
@@ -10,8 +10,6 @@ location: "Cape Town, South Africa"
 
 I worked during my summer vacation 2018 as a machine learning engineer intern at a [DataProphet](https://dataprophet.com/)
 
-Takeaways
-======
 I worked with a diverse team of machine learning engineers and data scientists. I helped implement transfer learning using RNN and CNN models for financial timeseries data. The key takeaway skills I learned included: 
 Using a Linux operating system as opposed to Windows and VIM as an editor. 
 
