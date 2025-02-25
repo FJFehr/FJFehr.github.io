@@ -8,6 +8,8 @@ main:
     url: /teaching/
   - title: "Experience"
     url: /experience/
+  - title: "Blogs"
+    url: /fablogio/
   - title: "Resume"
     url: /cv/
   - title: "Contact"
