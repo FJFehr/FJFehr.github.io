@@ -4,14 +4,19 @@ date: 2025-02-25
 permalink: /fablogio/research-internship-at-amazon-berlin/
 ---
 
+<figure>
+  <img src="files/blog/berlin/wall.jpeg" alt="Berlin Wall" width="600">
+  <figcaption>Mauerpark Berlin</figcaption>
+</figure>
+
 **TL;DR** My time living in Berlin and working with Amazon was tough but really fulfilling and rewarding. I have a huge appreciation for the team for the opportunity!
 
 I will write this in 3 parts: the **challenges**, my **growth**, and finally, my **appreciation** for the team.
 
 ## Challenges: Hitting the wall.
 
-![Berlin wall](files/berlin/wall.jpeg)
-<figcaption>Mauerpark berlin</figcaption>
+![Berlin wall](files/blog/berlin/wall.jpeg)
+<figcaption>Mauerpark Berlin</figcaption>
 
 It may seem strange and a bit negative to start with **challenges**, but it provides context for growth.
 
@@ -25,7 +30,7 @@ Now that the adversity is there, lets consider some growth!
 
 ## Growth: Okay, but what did you learn?
 
-![Tempelhofer Feld](files/berlin/kiting.jpeg)
+![Tempelhofer Feld](files/blog/berlin/kiting.jpeg)
 <figcaption>Kiteskating at Tempelhofer Feld.</figcaption>
 
 **Amazon’s leadership principles are actually interesting.** At first, I glazed over them—like blah blah, nah not for me. But on reflection, they hold some truth. "Customer Obsession" taught me to focus on the problem and work backward, not just follow the fast fashion of AI today. "Bias for Action" and "Insist on the Highest Standards" seemed contradictory at first. I even joked about "Bias for Action" as an excuse for bugs in my code! But these highlight the speed-to-quality ratio. There’s no free lunch. Focus on what really matters. "Have Backbone; Disagree and Commit" was tough for me, especially when I respected my colleagues' opinions. In this spirit, I disagree with the principle that “Leaders are right a lot.” I respect leaders who lead by example. How you handle being wrong is more important than always being right. I’d prefer a leader who’s honest, willing to change, and less often right.
@@ -34,7 +39,7 @@ Now that the adversity is there, lets consider some growth!
 
 **Adapting to a New Place.** I believe adaptation is one of the most important skills today. Every place has something special, and I try to embrace it. In Cape Town, it's the wildness, sunsets, ocean, and braai. In Switzerland, it's security, punctuality, pristine mountains, and cheese. Berlin? A melting pot of culture. Graffiti, personal expression, bold hairstyles, black clothing. Alongside that, ambitious work, running and wind sports, vegetarian cooking, and an incredible music scene. The food was just as diverse, from spicy hand-pulled noodles to endless plant-based options, which pushed me to experiment with vegetarian cooking. But the live music was the real highlight—classical, jazz, rock, techno. Some of the best in the world!
 
-![rainbow](files/berlin/rainbow.jpeg)
+![rainbow](files/blog/berlin/rainbow.jpeg)
 <figcaption>Rainbow at sunset where I lived in Ostkreuz. </figcaption>
 
 Lets finish it off with some **appreciation**. 
@@ -47,5 +52,5 @@ I had the privilege of working with the NGDE (Next Generation Developer Experien
 
 **Thank you!** I was lucky to work with this team and everyone in Berlin, who made the discussions, coffee breaks, and my time in Berlin truly memorable.
 
-![polaroids](files/berlin/polaroids.jpeg)
+![polaroids](files/blog/berlin/polaroids.jpeg)
 <figcaption>A collection of polaroids at the kite festival. </figcaption>
