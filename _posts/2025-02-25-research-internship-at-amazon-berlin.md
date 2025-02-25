@@ -9,6 +9,15 @@ permalink: /fablogio/research-internship-at-amazon-berlin/
   <figcaption>Mauerpark Berlin</figcaption>
 </figure>
 
+<img src="/assets/images/berlin/wall.jpeg" alt="Berlin Wall" width="600">
+
+![Berlin Wall](/assets/images/berlin/wall.jpeg)
+
+<figure>
+  <img src="/assets/images/berlin/wall.jpeg" alt="Berlin Wall" style="width: 100%;">
+  <figcaption style="text-align: center; font-size: 14px; color: gray;">Mauerpark Berlin</figcaption>
+</figure>
+
 <img src="images/pretrainedNVIB.png" style="max-width:300px;">
 
 <img src="files/blog/berlin/wall.jpeg" style="max-width:300px;">
