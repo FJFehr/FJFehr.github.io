@@ -1,5 +1,5 @@
 ---
-title: 'Reflection on my Internship at Amazon Berlin 2024'
+title: 'Interning at Amazon Berlin 2024: the Grind, Growth, and Gratitude'
 date: 2025-02-25
 permalink: /fablogio/research-internship-at-amazon-berlin/
 ---
@@ -11,11 +11,11 @@ permalink: /fablogio/research-internship-at-amazon-berlin/
 
 **TL;DR** My time living in Berlin and working with Amazon was tough but really fulfilling and rewarding. I have a huge appreciation for the team for the opportunity!
 
-I will write this in 3 parts: the **challenges**, my **growth**, and finally, my **appreciation** for the team.
+I will write this in 3 parts: the **grind**, my **growth**, and finally, my **gratitude** for the team.
 
-## Challenges: Hitting the wall.
+## The grind: Hitting the wall.
 
-It may seem strange and a bit negative to start with **challenges**, but it provides context for growth.
+It may seem strange and a bit negative to start with challenges, but it provides context for growth.
 
 **Interviews are tough.** Interestingly, one of my worst interviews with the FAANG companies was the one I got the offer for. Subsequently, I learned that it was all about fit. My NLP skills matched what they needed. I learned that it’s valuable to pause, say “I don’t know, but…,” and show your reasoning. Honesty and clarity go a long way. Also, I was lucky. Let's not forget that.
 
@@ -43,9 +43,9 @@ Now that the adversity is there, lets consider some growth!
   <figcaption style="text-align: center; font-size: 14px; color: gray;">Ostkreuz, Berlin: Rainbow at sunset where I lived (quite rare!).</figcaption>
 </figure>
 
-Lets finish it off with some **appreciation**. 
+Lets finish it off with some **gratitude**. 
 
-## Appreciation: credit where credit is due.
+## Gratitude: credit where credit is due.
 
 I had the privilege of working with the NGDE (Next Generation Developer Experience) team during my research internship at Amazon Berlin. They are tackling ambitious, unsolved problems, building AI agents to assist software engineers.
 
