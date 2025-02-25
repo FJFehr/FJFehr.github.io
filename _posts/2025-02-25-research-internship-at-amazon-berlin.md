@@ -8,9 +8,9 @@ permalink: /fablogio/research-internship-at-amazon-berlin/
 
 I will write this in 3 parts: the **challenges**, my **growth**, and finally, my **appreciation** for the team.
 
-It may seem strange and a bit negative to start with **challenges**, but it provides context for growth.
+## Challenges: Bring on the adversity!
 
-## Challenges: Bring on the adversity
+It may seem strange and a bit negative to start with **challenges**, but it provides context for growth.
 
 **Interviews are tough.** Interestingly, one of my worst interviews with the FAANG companies was the one I got the offer for. Subsequently, I learned that it was all about fit. My NLP skills matched what they needed. I learned that it’s valuable to pause, say “I don’t know, but…,” and show your reasoning. Honesty and clarity go a long way. Also, I was lucky. Let's not forget that.
 
@@ -18,7 +18,7 @@ It may seem strange and a bit negative to start with **challenges**, but it prov
 
 **Internships are hard.** Unlike PhD life, you're in a big company with a fast pace, deadlines, and meetings. It felt like a long interview, always trying to prove I’m not dumb. By design, the team was more product-focused, so the research responsibility fell on my shoulders. I knew elements of NLP, but this role focused on code retrieval, a domain I hadn’t worked in. I needed to work more consistently: reading literature, staying up-to-date with the state of the art, getting familiar with the Amazon ecosystem (infrastructure, team hierarchy, and dynamics), running experiments, communicating my results to the team, and learning to defend my ideas. With a short timeframe, you’ve got to move fast and make those GPUs go brrr.
 
-Now that the adversity is there, lets consider some **growth**!
+Now that the adversity is there, lets consider some growth!
 
 ## Growth: Okay, but what did you learn?
 
@@ -28,7 +28,7 @@ Now that the adversity is there, lets consider some **growth**!
 
 **Adapting to a New Place.** I believe adaptation is one of the most important skills today. Every place has something special, and I try to embrace it. In Cape Town, it's the wildness, sunsets, ocean, and braai. In Switzerland, it's security, punctuality, pristine mountains, and cheese. Berlin? A melting pot of culture. Graffiti, personal expression, bold hairstyles, black clothing. Alongside that, ambitious work, running and wind sports, vegetarian cooking, and an incredible music scene. The food was just as diverse, from spicy hand-pulled noodles to endless plant-based options, which pushed me to experiment with vegetarian cooking. But the live music was the real highlight—classical, jazz, rock, techno. Some of the best in the world!
 
-Lets finish it off with some **Appreciation**. 
+Lets finish it off with some **appreciation**. 
 
 ## Appreciation: credit where its due.
 
