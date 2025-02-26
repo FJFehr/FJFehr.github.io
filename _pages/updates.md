@@ -10,6 +10,7 @@ redirect_from:
 ## 2025
 
 **[February 2025]**
+
 I wrote my first blog post! It's a reflection on my research internship at Amazon and living in Berlin. [Interning at Amazon Berlin 2024: the Grind, Growth, and Gratitude](https://fjfehr.github.io/fablogio/research-internship-at-amazon-berlin/)
 
 ## 2024
