@@ -14,6 +14,10 @@ redirect_from:
 
 ## News
 
+**[February 2025]**
+I wrote my first blog post! It's a reflection on my research internship at Amazon and living in Berlin. [Interning at Amazon Berlin 2024: the Grind, Growth, and Gratitude](https://fjfehr.github.io/fablogio/research-internship-at-amazon-berlin/)
+
+
 **[December 2024]**
 
 Completed my research internship at Amazon, Berlin. They are tackling ambitious, unsolved problems, building AI agents to assist software engineers. I worked in improving retrieval for code editing agents. Special thanks to [Prabhu Teja](https://prabhuteja12.github.io/) and [Giovanni Zappella](https://giovannizappella.github.io/)!
@@ -27,11 +31,6 @@ Presented at the 30 years of Neural Networks Festschrift for [Dr. James Henderso
 **[August 2024]**
 
 | <img src="images/pretrainedNVIB.png" style="max-width:300px;"> | Our paper [**Nonparametric Variational Regularisation of Pretrained Transformers**](https://arxiv.org/pdf/2312.00662.pdf) has been accepted to be presented at [COLM 2024](https://colmweb.org/)! |
-
-
-**[July 2024]**
-
-Starting a research internship at Amazon, Berlin. I will be working in the space of retrieval augmented generation (RAG) and Large Language Models (LLMs) for code generation with [Prabhu Teja](https://prabhuteja12.github.io/) and [Giovanni Zappella](https://giovannizappella.github.io/)
 
 
 <br>
