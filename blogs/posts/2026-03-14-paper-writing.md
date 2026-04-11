@@ -11,7 +11,7 @@ permalink: /fablogio/paper-writing/
 
 *Disclaimer:* I do not claim to be an expert in writing papers or finding good research problems. These are things I wish I had read before/during PhD. I am working on them, thinking about them, and trying to hone the craft. What follows are lessons from my own experience, along with ideas from others that I have tried to synthesise and put into practice.
 
-### Choosing problems
+## Choosing problems
 
 Great research starts with choosing the right problems. Before thinking about papers or theses it is worth asking a simpler question: *what problems are actually worth working on?* The goal isn't (well... shouldn't be) publishing papers. The goal is discovering something new and communicating it clearly. A conference paper is just the container. In a PhD this can be conflated, but a well known starting point is: [*What is the most important problem in my field, and why am I not working on it?*](https://www.lesswrong.com/posts/P5k3PGzebd5yYrYqd/the-hamming-question) - Richard Hamming
 
@@ -38,7 +38,7 @@ Great research starts with choosing the right problems. Before thinking about pa
 
 Once you have a promising problem, the next challenge is communicating the idea clearly.
 
-### What makes a great paper?
+## What makes a great paper?
 
 Definitely recommend diving into [How to win a best paper award](https://nicholas.carlini.com/writing/2026/how-to-win-a-best-paper-award.html) by Nicholas Carlini. A great paper is not just good research. It is good research explained clearly.
 
@@ -67,7 +67,7 @@ Definitely recommend diving into [How to win a best paper award](https://nichola
 
 Of course, writing good papers is only part of the story. During a PhD you also need a strategy for how to publish them.
 
-### Publishing Strategy
+## Publishing Strategy
 
 **Build a safety net 🪳 then shoot for the stars 🚀**. During a PhD, aiming for a spectacular 8/10 research paper sounds great in theory but can be risky early on. I recommend starting with the *Cockroach Paper* strategy, suggested by [Yannic Kilchner’s PhD survival guide](https://www.youtube.com/watch?v=rHQPBqMULXo). The idea is simple: secure enough solid papers to graduate, and then use that safety net to explore bigger moonshot ideas.
 
@@ -88,7 +88,7 @@ Now that you have a few papers supporting you 🪳, its time to take-some-time a
 
 That's the ideal. Ironically, I did it in reverse. My supervisor and I spent two years publishing the [moonshot idea](https://openreview.net/forum?id=6QkjC_cs03X), and only afterwards did I start roaching the rest 🪳.
 
-### Thesis writing
+## Thesis writing
 
 A thesis should not just be a collection of your papers (ideally). My supervisor described it as a single-author document that should transcend them. It should tell the story of your research and the themes that connect your work. It should not read like the ending of the work, but the beginning of what comes next. What questions are still important? What ideas matured over time? Think about how it will read in ten years.
 
@@ -96,6 +96,6 @@ For mine I optimised for a lazy reader. I used short chapter summaries and links
 
 Thesis writing is stressful, but the principle is simple. Decide on the structure early and start writing. Then keep writing. It is easier to edit than to begin. There will always be another experiment you could run. At some point you must draw the line.
 
-### Conclusion
+## Conclusion
 
 Good research is cooked with taste and served as a story. Develop a palate for the problems that matter. Turn the best of those problems into one clear contribution, polish the experiments, learn the conventions, and use roach papers to buy yourself time for moonshot ideas. Good luck!

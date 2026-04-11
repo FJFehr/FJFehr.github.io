@@ -369,7 +369,7 @@ async function loadSiteMetadata() {
         if (siteNameElement && config.site?.name) {
             siteNameElement.textContent = config.site.name;
         }
-        
+
         // Update page title
         const pageTitleElement = document.getElementById('page-title');
         if (pageTitleElement && config.site?.page_title) {
@@ -414,36 +414,28 @@ async function loadLayoutConfiguration() {
         // Build navigation menu
         const navLinksElement = document.getElementById('nav-links');
         if (navLinksElement && config.layout?.header?.navigation) {
-            // Preserve theme toggle button
-            const themeButton = navLinksElement.querySelector('#theme-toggle');
             navLinksElement.innerHTML = '';
-            
-            // Add navigation links
+
             config.layout.header.navigation.forEach(navItem => {
                 const linkElement = document.createElement('a');
                 let href = navItem.href;
-                
+
                 // Replace {{cv_url}} placeholder with actual CV URL
                 if (href.includes('{{cv_url}}') && config.site?.cv_url) {
                     href = href.replace('{{cv_url}}', config.site.cv_url);
                 }
-                
+
                 linkElement.href = href;
                 linkElement.innerHTML = navItem.label;
-                
+
                 // Add target="_blank" for external links (like CV)
                 if (navItem.is_external) {
                     linkElement.target = '_blank';
                     linkElement.rel = 'noopener noreferrer';
                 }
-                
+
                 navLinksElement.appendChild(linkElement);
             });
-            
-            // Re-add theme toggle button
-            if (themeButton) {
-                navLinksElement.appendChild(themeButton);
-            }
         }
         
         // Update section titles
@@ -700,12 +692,36 @@ async function loadDesignConfiguration() {
  * Initialize main page
  * Loads all content sections in the correct order
  */
+function initNavHighlight() {
+    const navLinks = document.querySelectorAll('.nav-links a[href^="#"]');
+    if (!navLinks.length) return;
+
+    const sectionIds = [...navLinks].map(a => a.getAttribute('href').slice(1));
+    const sections = sectionIds.map(id => document.getElementById(id)).filter(Boolean);
+
+    function updateActiveLink() {
+        const offset = parseInt(getComputedStyle(document.documentElement).getPropertyValue('--header-offset')) || 100;
+        let current = null;
+        sections.forEach(section => {
+            if (section.getBoundingClientRect().top <= offset + 8) {
+                current = section.id;
+            }
+        });
+        navLinks.forEach(a => {
+            a.classList.toggle('active', a.getAttribute('href') === '#' + current);
+        });
+    }
+
+    document.body.addEventListener('scroll', updateActiveLink);
+    updateActiveLink();
+}
+
 function initializeMainPage() {
     // Load configurations first so CSS variables are available
     loadLayoutConfiguration();
     loadSiteMetadata();
     loadDesignConfiguration();
-    
+
     // Load content
     loadProfileContent();
     loadSocialLinks();
@@ -713,6 +729,9 @@ function initializeMainPage() {
     loadBlogs();
     loadTimeline();
     loadMedia();
+
+    // Highlight active nav section on scroll (after nav links are built)
+    setTimeout(initNavHighlight, 300);
 }
 
 
@@ -728,12 +747,8 @@ async function loadBlogSiteMetadata() {
         const config = await loadConfig();
         if (!config) return;
         
-        const siteNameElement = document.getElementById('site-name');
         const footerNameElement = document.getElementById('footer-name');
-        
-        if (siteNameElement && config.site?.name) {
-            siteNameElement.textContent = config.site.name;
-        }
+
         if (footerNameElement && config.site?.footer_name) {
             footerNameElement.textContent = config.site.footer_name;
         }
@@ -750,20 +765,7 @@ async function loadBlogLayoutConfiguration() {
         const config = await loadConfig();
         if (!config) return;
         
-        // Build navigation menu (without internal page anchors)
-        const navLinksElement = document.getElementById('nav-links');
-        if (navLinksElement) {
-            // Preserve theme toggle button
-            const themeButton = navLinksElement.querySelector('#theme-toggle');
-            
-            // Clear and rebuild nav (keeping only theme toggle)
-            navLinksElement.innerHTML = '';
-            
-            // Re-add theme toggle button
-            if (themeButton) {
-                navLinksElement.appendChild(themeButton);
-            }
-        }
+        // Blog pages have no nav links — nav element is not present
         
         const footerYearElement = document.getElementById('footer-year');
         const footerTaglineElement = document.getElementById('footer-tagline');
@@ -930,8 +932,6 @@ function generateTableOfContents() {
     // --- INLINE TOC (h2s only, only when {{TOC}} placeholder present) ---
     const h2Headings = [...headings].filter(h => h.tagName === 'H2');
     const tocPlaceholder = blogBody.querySelector('#toc-placeholder');
-    const tocBtn = document.getElementById('blog-toc-btn');
-
     if (tocPlaceholder && h2Headings.length > 0) {
         const inlineToc = document.createElement('div');
         inlineToc.className = 'blog-inline-toc';
@@ -953,28 +953,9 @@ function generateTableOfContents() {
         });
         inlineToc.appendChild(ul);
         tocPlaceholder.replaceWith(inlineToc);
-
-        // Button scrolls to TOC
-        if (tocBtn) {
-            tocBtn.addEventListener('click', e => {
-                e.preventDefault();
-                const header = document.querySelector('.site-header, .blog-header, header');
-                const headerHeight = header ? header.getBoundingClientRect().height : 0;
-                const tocTop = inlineToc.getBoundingClientRect().top + document.body.scrollTop - headerHeight - 16;
-                document.body.scrollTo({ top: tocTop, behavior: 'smooth' });
-            });
-        }
     } else {
-        // No {{TOC}} — remove orphaned placeholder if present, make button scroll to top
+        // No {{TOC}} — remove orphaned placeholder if present
         if (tocPlaceholder) tocPlaceholder.remove();
-        if (tocBtn) {
-            tocBtn.textContent = '↑ Top';
-            tocBtn.setAttribute('aria-label', 'Back to top');
-            tocBtn.addEventListener('click', e => {
-                e.preventDefault();
-                document.body.scrollTo({ top: 0, behavior: 'smooth' });
-            });
-        }
     }
 
     // --- READING PROGRESS PILL ---
@@ -1133,11 +1114,20 @@ function initializeBlogPage() {
  * ===================================================================
  */
 
+// Dynamically update --header-offset based on actual header height
+function updateHeaderOffset() {
+    const header = document.querySelector('header');
+    if (header) {
+        const height = header.getBoundingClientRect().height;
+        document.documentElement.style.setProperty('--header-offset', height + 16 + 'px');
+    }
+}
+
 // Initialize the appropriate page when DOM is ready
 if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', () => {
         initializeThemeToggle();
-        
+
         // Detect which page we're on
         if (document.getElementById('blog-body')) {
             // We're on the blog detail page
@@ -1146,16 +1136,23 @@ if (document.readyState === 'loading') {
             // We're on the main page
             initializeMainPage();
         }
+
+        // Set header offset after content loads and on resize
+        setTimeout(updateHeaderOffset, 100);
+        window.addEventListener('resize', updateHeaderOffset);
     });
 } else {
     initializeThemeToggle();
-    
+
     // Detect which page we're on
     if (document.getElementById('blog-body')) {
         initializeBlogPage();
     } else if (document.getElementById('profile-content')) {
         initializeMainPage();
     }
+
+    setTimeout(updateHeaderOffset, 100);
+    window.addEventListener('resize', updateHeaderOffset);
 }
 
 })(); // End of IIFE

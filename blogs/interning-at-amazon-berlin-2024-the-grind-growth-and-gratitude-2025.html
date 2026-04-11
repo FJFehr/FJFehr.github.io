@@ -14,6 +14,10 @@
     <meta property="og:image:width" content="1200" />
     <meta property="og:image:height" content="630" />
     
+    <!-- Google Fonts: Playfair Display for headings -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="../css/style.css">
     <style>
         .blog-container {
@@ -29,6 +33,7 @@
         .blog-title {
             font-size: clamp(28px, 5vw, 42px);
             font-weight: 700;
+            font-family: var(--font-serif);
             margin-bottom: 12px;
             line-height: 1.2;
         }
@@ -45,21 +50,34 @@
             color: var(--text-color);
             overflow-wrap: break-word;
             word-break: break-word;
+            max-width: 680px;
+            margin-left: auto;
+            margin-right: auto;
         }
 
         .blog-body h2 {
-            font-size: 28px;
-            font-weight: 600;
-            margin-top: 48px;
+            font-size: 24px;
+            font-weight: 700;
+            font-family: var(--font-serif);
+            margin-top: 56px;
             margin-bottom: 16px;
             line-height: 1.3;
         }
 
         .blog-body h3 {
-            font-size: 22px;
-            font-weight: 600;
-            margin-top: 36px;
+            font-size: 20px;
+            font-weight: 700;
+            font-family: var(--font-serif);
+            margin-top: 40px;
             margin-bottom: 12px;
+        }
+
+        .blog-body h4 {
+            font-size: 17px;
+            font-weight: 600;
+            margin-top: 28px;
+            margin-bottom: 8px;
+            line-height: 1.4;
         }
 
         .blog-body p {
@@ -150,6 +168,7 @@
         .blog-header-title {
             font-size: clamp(13px, 2vw, 16px);
             font-weight: 600;
+            font-family: var(--font-serif);
             flex: 1;
             min-width: 0;
             white-space: nowrap;
@@ -165,17 +184,20 @@
             gap: 6px;
             flex-shrink: 0;
         }
-        .blog-toc-btn, .blog-back-link {
+        .blog-back-link {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 32px;
+            height: 32px;
+            border-radius: 50%;
+            font-size: 18px;
+            color: var(--link-color);
             text-decoration: none;
-            color: var(--muted-color);
-            font-size: 13px;
-            white-space: nowrap;
-            padding: 4px 8px;
-            border-radius: 4px;
-            transition: color 0.2s, background-color 0.2s;
+            flex-shrink: 0;
+            transition: background-color 0.2s;
         }
-        .blog-toc-btn:hover, .blog-back-link:hover {
-            color: var(--text-color);
+        .blog-back-link:hover {
             background-color: var(--hover-bg);
         }
 
@@ -186,11 +208,12 @@
             gap: 0;
             min-height: 0;
             overflow: hidden;
+            padding-left: 4px;
         }
 
         .blog-current-h2 {
             font-size: 13px;
-            font-weight: 700;
+            font-weight: 600;
             color: var(--text-color);
             padding: 3px 0 6px;
             white-space: nowrap;
@@ -242,9 +265,11 @@
         }
         .blog-inline-toc .blog-toc-heading {
             margin: 0 0 12px 0;
-            font-size: 20px;
-            font-weight: 700;
-            color: var(--text-color);
+            font-size: 12px;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.08em;
+            color: var(--muted-color);
         }
         .blog-inline-toc ul {
             margin: 0;
@@ -286,8 +311,8 @@
         /* === READING PROGRESS PILL === */
         .blog-progress {
             position: fixed;
-            bottom: 24px;
-            right: 20px;
+            bottom: 32px;
+            right: 28px;
             background: linear-gradient(
                 to right,
                 var(--border-color) var(--fill, 0%),
@@ -296,8 +321,8 @@
             color: var(--muted-color);
             border: 1px solid var(--border-color);
             border-radius: 20px;
-            padding: 4px 10px;
-            font-size: 12px;
+            padding: 6px 14px;
+            font-size: 13px;
             font-weight: 600;
             letter-spacing: 0.3px;
             z-index: 999;
@@ -345,9 +370,10 @@
         }
         /* === SUN LIKE BUTTON === */
         .blog-sun-like {
-            display: inline-flex;
+            display: flex;
             flex-direction: column;
             align-items: center;
+            width: 100%;
             gap: 3px;
             margin-top: 20px;
             margin-bottom: 8px;
@@ -356,7 +382,7 @@
             background: none;
             border: none;
             cursor: pointer;
-            font-size: 28px;
+            font-size: 40px;
             line-height: 1;
             padding: 0;
             transition: transform 0.15s, filter 0.2s;
@@ -369,8 +395,8 @@
             content: attr(data-tooltip);
             position: absolute;
             bottom: calc(100% + 8px);
-            left: 50%;
-            transform: translateX(-50%);
+            left: 0;
+            transform: none;
             background: var(--text-color);
             color: var(--bg-color);
             font-size: 12px;
@@ -409,13 +435,10 @@
     <main>
         <header class="header blog-header">
             <div class="blog-header-top">
-                <a href="../index.html#top" class="blog-back-link">← <span id="site-name">Home</span></a>
+                <a href="../index.html#top" class="blog-back-link" aria-label="Back to home"><svg width="10" height="16" viewBox="0 0 10 16" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="8,2 2,8 8,14"/></svg></a>
                 <div class="blog-header-title" id="blog-header-title"></div>
                 <div class="blog-header-controls">
-                    <a href="#blog-inline-toc" class="blog-toc-btn" id="blog-toc-btn" aria-label="Jump to TOC">↑ TOC</a>
-                    <nav class="nav-links" id="nav-links">
-                        <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">🌙</button>
-                    </nav>
+                    <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">🌙</button>
                 </div>
             </div>
             <nav class="blog-header-nav" id="blog-header-nav" aria-label="Current section">

@@ -90,17 +90,6 @@ contacts:
     display: "YouTube"
     is_image: true
   
-  - name: "Instagram"
-    icon: "content/site/icons/instagram-2016-logo-svgrepo-com.svg"
-    url: "https://www.instagram.com/fabio_j_fehr/"
-    display: "Instagram"
-    is_image: true
-  
-  - name: "Spotify"
-    icon: "content/site/icons/spotify-color-svgrepo-com.svg"
-    url: "https://open.spotify.com/user/rsb5wsunuryza4ziszf8viphz?si=6d07fad53a7948e9"
-    display: "Spotify"
-    is_image: true
 
 # ===========================
 # Design System
@@ -117,8 +106,8 @@ design:
   typography:
     body:
       font_size: 17px
-      line_height: 1.7
-      font_family: "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial"
+      line_height: 1.6
+      font_family: "-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Helvetica, Arial, sans-serif"
       color:
         light: "#0a0a0a"
         dark: "#e0e0e0"
@@ -129,7 +118,7 @@ design:
         font_weight: 700
         letter_spacing: "-0.02em"
       section_title:  # Section titles (Publications, Contacts, etc.)
-        font_size: 22px
+        font_size: 28px
         font_weight: 700
     
     links:
