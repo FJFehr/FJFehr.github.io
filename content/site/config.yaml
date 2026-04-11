@@ -172,25 +172,37 @@ design:
   
   # Colors
   colors:
+    # ── Change this one line to switch the entire brand colour ──
+    active_palette: "violet"  # Options: indigo | violet | teal
+
+    palettes:
+      indigo:
+        light: { link: "#4f46e5", hover: "#e0e7ff" }
+        dark:  { link: "#818cf8", hover: "#2d2a5e" }
+      violet:
+        light: { link: "#7c3aed", hover: "#ede9fe" }
+        dark:  { link: "#a78bfa", hover: "#2e1065" }
+      teal:
+        light: { link: "#0d9488", hover: "#ccfbf1" }
+        dark:  { link: "#2dd4bf", hover: "#042f2e" }
+
     light_mode:
-      background: "#fff"
+      background: "#f8f5ee"  # Eggshell — matches CSS --bg-color
+      surface: "#f8f5ee"     # Card / input surface — matches CSS --input-bg
       text: "#0a0a0a"
       muted: "#666"
       border: "#e0e0e0"
-      hover: "#ffe4cc"  # Peach highlight for hover effects
-      link: "#ff9966"   # Darker orange for links
-    
+
     dark_mode:
       background: "#1a1a1a"
+      surface: "#2a2a2a"     # Card / input surface — matches CSS --input-bg
       text: "#e0e0e0"
       muted: "#a0a0a0"
       border: "#333"
-      hover: "#6a4c93"  # Light purple for hover effects
-      link: "#9370db"   # Medium purple for links
-      social_background: "#2a2a2a"
-    
+
     accent:
-      conference_label: "#8C001A"  # Conference/workshop badges
+      light: { base: "#f59e0b", hover: "#fef3c7" }  # Amber — publication action buttons
+      dark:  { base: "#fbbf24", hover: "#451a03" }
   
   # Transitions
   transitions:

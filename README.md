@@ -15,6 +15,7 @@ Personal portfolio and blog hosted on GitHub Pages.
 
 **Change appearance:**
 - **Colours, fonts, spacing** - Edit `content/site/config.yaml` (design section)
+- **Swap colour palette** - Change `design.colors.active_palette` in `config.yaml` (`indigo` / `violet` / `teal`). See `.guides/colour_palettes.md` for details.
 - **Advanced styling** - Edit `css/style.css` (CSS variables at top)
 
 **Add a blog post:**

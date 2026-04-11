@@ -47,6 +47,26 @@
     }
 
     /**
+     * Apply the active colour palette from config to CSS custom properties.
+     * Sets four palette vars on :root — the theme blocks (light/dark) reference
+     * these via var(), so the theme toggle continues to work automatically.
+     */
+    async function applyPalette() {
+        const config = await loadConfig();
+        const colors = config?.design?.colors;
+        if (!colors) return;
+
+        const palette = colors.palettes?.[colors.active_palette];
+        if (!palette) return;
+
+        const root = document.documentElement;
+        root.style.setProperty('--palette-light-link',  palette.light.link);
+        root.style.setProperty('--palette-light-hover', palette.light.hover);
+        root.style.setProperty('--palette-dark-link',   palette.dark.link);
+        root.style.setProperty('--palette-dark-hover',  palette.dark.hover);
+    }
+
+    /**
      * Load and parse a YAML content file
      * @param {string} path - Path to YAML file
      * @returns {Promise<object|array>} Parsed YAML data
@@ -1127,6 +1147,7 @@ function updateHeaderOffset() {
 if (document.readyState === 'loading') {
     document.addEventListener('DOMContentLoaded', () => {
         initializeThemeToggle();
+        applyPalette();
 
         // Detect which page we're on
         if (document.getElementById('blog-body')) {
@@ -1143,6 +1164,7 @@ if (document.readyState === 'loading') {
     });
 } else {
     initializeThemeToggle();
+    applyPalette();
 
     // Detect which page we're on
     if (document.getElementById('blog-body')) {
