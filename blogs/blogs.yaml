@@ -1,13 +1,13 @@
-- id: collaborations-2026
-  title: Collaborations
-  short_title: Collaborations
+- id: building-teams-2026
+  title: Building Teams
+  short_title: Building Teams
   date: '2026-04-11'
-  excerpt: Part 3 of the PhD survival series. Most meaningful work is done in teams.
-    Collaboration is a multiplier, but only when scale, structure, and ownership are
-    designed well.
+  excerpt: 'Part 3 of the PhD survival series. PhDoing: A PhD is designed to be individual,
+    but the work that compounds is often collaborative. The best work comes from the
+    best teams. But how do we build them? It is about culture, good engineering, small
+    teams, clear ownership, scaling structure as you go.'
   thumbnail: blogs/images/idiap/justiceLeagueNVIB.png
-  reading_time: 12 min read
-  hidden: true
+  reading_time: 11 min read
 - id: research-writing-2026
   title: Research Writing
   short_title: Research Writing
