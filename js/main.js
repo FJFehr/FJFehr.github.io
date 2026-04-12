@@ -1049,10 +1049,12 @@ function wireShareButtons(title) {
     const li = document.getElementById('share-linkedin');
     const x  = document.getElementById('share-x');
     const em = document.getElementById('share-email');
+    const wa = document.getElementById('share-whatsapp');
 
     if (li) li.href = `https://www.linkedin.com/sharing/share-offsite/?url=${url}`;
     if (x)  x.href  = `https://x.com/intent/tweet?url=${url}&text=${text}`;
     if (em) em.href = `mailto:?subject=${text}&body=${url}`;
+    if (wa) wa.href = `https://wa.me/?text=${text}%20${url}`;
 }
 
 /**
