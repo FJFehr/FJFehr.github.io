@@ -397,6 +397,12 @@ async function loadSiteMetadata() {
             pageTitleElement.textContent = config.site.page_title;
         }
         
+        // Update profile picture
+        const profileImgElement = document.getElementById('profile-img');
+        if (profileImgElement && config.site?.profile_picture_path) {
+            profileImgElement.src = config.site.profile_picture_path;
+        }
+
         // Update nationality flags (optional)
         const nationalityFlagsElement = document.getElementById('nationality-flags');
         if (nationalityFlagsElement && config.site?.nationality_flags) {
@@ -441,9 +447,9 @@ async function loadLayoutConfiguration() {
                 const linkElement = document.createElement('a');
                 let href = navItem.href;
 
-                // Replace {{cv_url}} placeholder with actual CV URL
-                if (href.includes('{{cv_url}}') && config.site?.cv_url) {
-                    href = href.replace('{{cv_url}}', config.site.cv_url);
+                // Replace {{cv_path}} placeholder with actual CV URL
+                if (href.includes('{{cv_path}}') && config.site?.cv_path) {
+                    href = href.replace('{{cv_path}}', config.site.cv_path);
                 }
 
                 linkElement.href = href;

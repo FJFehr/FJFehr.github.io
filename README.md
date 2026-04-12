@@ -23,9 +23,18 @@ If this saves you time, a ⭐ goes a long way.
 
 [![Use this template](https://img.shields.io/badge/Use_this_template-2ea44f?style=for-the-badge&logo=github&logoColor=white)](https://github.com/FJFehr/fjfehr.github.io/generate)
 
-Then replace all personal content:
-- Swap content in `content/` (bio, publications, timeline, config)
-- Update `content/site/config.yaml` with your name, links, colour palette, and `site_url`
+Then run the setup script to blank all personal content:
+
+```bash
+python3 setup.py
+```
+
+This replaces all personal data with blank starter templates and clears blog posts. Then fill in:
+- `content/site/config.yaml` — your name, role, social links, and `site_url`
+- `content/site/bio.md` — your bio
+- `content/publications/publications.yaml` — your publications
+- `content/timeline/timeline.yaml` — your work/education history
+- `content/media/media.yaml` — your media highlights
 - Replace `content/site/profile_picture.jpg` with your photo
 
 ## Quick Start
