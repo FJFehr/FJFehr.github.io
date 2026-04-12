@@ -1,6 +1,22 @@
 # Personal Website
 
+[![GitHub stars](https://img.shields.io/github/stars/FJFehr/fjfehr.github.io?style=social)](https://github.com/FJFehr/fjfehr.github.io/stargazers)
+[![GitHub forks](https://img.shields.io/github/forks/FJFehr/fjfehr.github.io?style=social)](https://github.com/FJFehr/fjfehr.github.io/fork)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+
 Personal portfolio and blog hosted on GitHub Pages.
+
+## Use This Template
+
+Want your own portfolio like this? Click the button to create your own copy:
+
+[![Use this template](https://img.shields.io/badge/Use_this_template-2ea44f?style=for-the-badge&logo=github&logoColor=white)](https://github.com/FJFehr/fjfehr.github.io/generate)
+
+Then replace all personal content:
+- Swap content in `content/` (bio, publications, timeline, config)
+- Update `content/site/config.yaml` with your name, links, and colour palette
+- Replace `content/site/profile_picture.jpg` with your photo
+- Update the site URL in `content/site/config.yaml`
 
 ## Quick Edits
 
@@ -27,6 +43,8 @@ Personal portfolio and blog hosted on GitHub Pages.
    date: 2025-01-15
    excerpt: "A brief description for social media previews (WhatsApp, LinkedIn, etc.)"
    thumbnail: "blogs/images/my-image.jpg"
+   short_title: "Short card title"    # optional – shorter title for blog cards
+   permalink: "custom-url-slug"       # optional – overrides auto-generated URL slug
    ---
    
    ## Introduction
@@ -45,6 +63,7 @@ Personal portfolio and blog hosted on GitHub Pages.
 
 3. **Convert and generate** (required for each blog):
    ```bash
+   pip install pyyaml  # one-time setup
    python3 convert-blog.py blogs/posts/your-post.md --update-index
    ```
    
@@ -176,7 +195,7 @@ Both `css/style.css` and `js/main.js` are heavily commented with section headers
 ## Code Organisation
 
 ### CSS (`css/style.css`)
-Single consolidated stylesheet (680 lines) organised into clearly marked sections:
+Single consolidated stylesheet (1022 lines) organised into clearly marked sections:
 - **CSS Variables** - Theme colours, spacing, sizing (supports light/dark modes)
 - **Base Styles** - Typography, links, body defaults
 - **Layout Components** - Header, navigation, profile, sections
@@ -194,7 +213,7 @@ Single consolidated stylesheet (680 lines) organised into clearly marked section
 Edit CSS variables at the top of `style.css` to change colours, spacing, sizing, or typography.
 
 ### JavaScript (`js/main.js`)
-Single consolidated JavaScript file (847 lines) wrapped in IIFE for proper scoping:
+Single consolidated JavaScript file (1201 lines) wrapped in IIFE for proper scoping:
 
 **Structure:**
 1. **Configuration Loading** - YAML config loader with caching
@@ -230,6 +249,10 @@ Single consolidated JavaScript file (847 lines) wrapped in IIFE for proper scopi
 - Use your editor's outline/symbol view to navigate sections
 - CSS variables at top of style.css for quick theme changes
 - All content stored in YAML - no code changes needed for updates
+
+## Star History
+
+[![Star History Chart](https://api.star-history.com/svg?repos=FJFehr/fjfehr.github.io&type=Date)](https://star-history.com/#FJFehr/fjfehr.github.io&Date)
 
 ## License
 

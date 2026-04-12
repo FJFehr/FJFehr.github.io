@@ -181,6 +181,12 @@ html[data-theme="dark"] .theme-toggle:hover {
   background-color: var(--border-color);
 }
 
+.nav-links a:focus:not(:focus-visible),
+.theme-toggle:focus:not(:focus-visible) {
+  outline: none;
+  background-color: transparent;
+}
+
 
 /* ========================================================================
    PROFILE SECTION

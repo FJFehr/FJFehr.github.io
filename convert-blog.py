@@ -328,6 +328,7 @@ def convert_markdown_to_json(markdown_file_path, output_directory=None):
     post_excerpt = frontmatter_data.get("excerpt", "")
     post_thumbnail = frontmatter_data.get("thumbnail", "")
     post_short_title = frontmatter_data.get("short_title", "")
+    post_hidden = frontmatter_data.get("hidden", "")
     unique_blog_id = create_blog_id(post_title, post_date)
 
     # Return metadata for blogs index
@@ -340,6 +341,9 @@ def convert_markdown_to_json(markdown_file_path, output_directory=None):
         "thumbnail": post_thumbnail,
         "reading_time": calculate_reading_time(markdown_content),
     }
+
+    if post_hidden and post_hidden != "false":
+        blog_metadata["hidden"] = True
 
     # Generate standalone HTML file with OG tags and embedded content (save to blogs/ directory)
     html_path = generate_blog_html(

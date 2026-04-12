@@ -177,6 +177,21 @@
             color: var(--text-color);
             text-align: center;
             padding: 0 8px;
+            text-decoration: none;
+            border-radius: 4px;
+            transition: background-color 0.2s;
+        }
+        .blog-header-title:hover {
+            background-color: var(--hover-bg);
+        }
+        .blog-header-title:visited {
+            color: var(--text-color);
+        }
+        .blog-header-title:focus:not(:focus-visible),
+        .blog-header-title.just-clicked,
+        .blog-header-title.just-clicked:hover {
+            outline: none;
+            background-color: transparent;
         }
         .blog-header-controls {
             display: flex;
@@ -436,7 +451,7 @@
         <header class="header blog-header">
             <div class="blog-header-top">
                 <a href="../index.html#top" class="blog-back-link" aria-label="Back to home"><svg width="10" height="16" viewBox="0 0 10 16" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="8,2 2,8 8,14"/></svg></a>
-                <div class="blog-header-title" id="blog-header-title"></div>
+                <a href="#top" class="blog-header-title" id="blog-header-title"></a>
                 <div class="blog-header-controls">
                     <button id="theme-toggle" class="theme-toggle" aria-label="Toggle dark mode">🌙</button>
                 </div>

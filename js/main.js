@@ -243,6 +243,7 @@ function initializeThemeToggle() {
         htmlElement.setAttribute('data-theme', newTheme);
         localStorage.setItem('theme', newTheme);
         themeToggle.textContent = newTheme === 'dark' ? '☀️' : '🌙';
+        themeToggle.blur();
     });
 }
 
@@ -638,8 +639,8 @@ async function loadBlogs() {
         const listContainer = document.getElementById('blog-list');
         
         if (!listContainer || !blogs) return;
-        
-        const blogCards = blogs.map(blog => {
+
+        const blogCards = blogs.filter(blog => !blog.hidden).map(blog => {
             const formattedDate = formatDate(blog.date);
             const dateLine = formattedDate + (blog.reading_time ? ' · ' + blog.reading_time : '');
 
@@ -719,7 +720,10 @@ function initNavHighlight() {
     const sectionIds = [...navLinks].map(a => a.getAttribute('href').slice(1));
     const sections = sectionIds.map(id => document.getElementById(id)).filter(Boolean);
 
+    let suppressHighlight = false;
+
     function updateActiveLink() {
+        if (suppressHighlight) return;
         const offset = parseInt(getComputedStyle(document.documentElement).getPropertyValue('--header-offset')) || 100;
         let current = null;
         sections.forEach(section => {
@@ -731,6 +735,15 @@ function initNavHighlight() {
             a.classList.toggle('active', a.getAttribute('href') === '#' + current);
         });
     }
+
+    navLinks.forEach(link => {
+        link.addEventListener('click', () => {
+            suppressHighlight = true;
+            navLinks.forEach(a => a.classList.remove('active'));
+            link.blur();
+            setTimeout(() => { suppressHighlight = false; }, 800);
+        });
+    });
 
     document.body.addEventListener('scroll', updateActiveLink);
     updateActiveLink();
@@ -1125,6 +1138,14 @@ function initializeBlogPage() {
     loadBlogLayoutConfiguration();
     loadBlogSiteMetadata();
     loadBlogPost();
+    const headerTitle = document.getElementById('blog-header-title');
+    if (headerTitle) {
+        headerTitle.addEventListener('click', () => {
+            headerTitle.blur();
+            headerTitle.classList.add('just-clicked');
+            setTimeout(() => headerTitle.classList.remove('just-clicked'), 300);
+        });
+    }
 }
 
 

@@ -5,6 +5,7 @@ excerpt: "A personal survival guide for a PhD in Machine Learning at EPFL, Idiap
 thumbnail: "blogs/images/idiap/Fabio-Jamie.jpeg"
 short_title: 'A PhD Survival Guide'
 permalink: /fablogio/surviving-a-phd/
+hidden: true
 ---
 
 **TL;DR** A personal survival guide for a PhD in Machine Learning. I'll share what worked for me at [EPFL](https://www.epfl.ch/about/) and [Idiap Research Institute](https://www.idiap.ch/en/) in Martigny Switzerland between the years of 2021-2025.
