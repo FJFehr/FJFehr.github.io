@@ -12,6 +12,7 @@ site:
   author_name_pattern: "F. Fehr"  # Pattern to bold in publication author lists
   google_scholar_url: "https://scholar.google.com/citations?user=WaZWY0wAAAAJ&hl=en"
   cv_url: "content/site/Fabio_J_Fehr_CV_2025.pdf"  # Path to CV/Resume PDF
+  site_url: "https://fjfehr.github.io"  # Your GitHub Pages URL — no trailing slash (used for OG tags in blog posts)
   role:
     title: "Postdoctoral Researcher"
     affiliation: "Oxford University, TVG"

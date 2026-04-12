@@ -46,6 +46,21 @@ DEFAULT_BLOGS_DIR = "blogs"
 DEFAULT_POSTS_DIR = "blogs/posts"
 DEFAULT_EXCERPT_LENGTH = 200
 BLOG_INDEX_FILENAME = "blogs.yaml"
+SITE_CONFIG_PATH = "content/site/config.yaml"
+
+
+def get_site_url(config_path=SITE_CONFIG_PATH):
+    """Read site_url from config.yaml, with a clear warning if missing."""
+    try:
+        with open(config_path, "r", encoding="utf-8") as f:
+            config = yaml.safe_load(f)
+        url = config.get("site", {}).get("site_url", "")
+        if not url:
+            print("⚠️  Warning: 'site.site_url' not set in config.yaml. OG URLs will be broken.")
+        return url.rstrip("/")
+    except Exception as e:
+        print(f"⚠️  Warning: Could not load site config from {config_path}: {e}")
+        return ""
 
 
 def parse_yaml_frontmatter(markdown_content):
@@ -209,14 +224,15 @@ def generate_blog_html(blog_metadata, blog_content, output_directory=DEFAULT_BLO
         thumbnail = blog_metadata.get("thumbnail", "content/site/profile_picture.jpg")
 
         # Ensure thumbnail is an absolute URL
+        site_url = get_site_url()
         if not thumbnail.startswith("http"):
-            thumbnail = f"https://fjfehr.github.io/{thumbnail}"
+            thumbnail = f"{site_url}/{thumbnail}" if site_url else thumbnail
 
         # Create OG meta tags for this specific blog post
         og_tags = f"""    <!-- Open Graph / Social Media Meta Tags -->
     <meta property="og:title" content="{title}" />
     <meta property="og:description" content="{excerpt}" />
-    <meta property="og:url" content="https://fjfehr.github.io/blogs/{blog_id}.html" />
+    <meta property="og:url" content="{site_url}/blogs/{blog_id}.html" />
     <meta property="og:type" content="article" />
     <meta property="og:image" content="{thumbnail}" />
     <meta property="og:image:width" content="1200" />
