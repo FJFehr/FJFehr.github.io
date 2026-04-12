@@ -24,7 +24,7 @@
 
 - id: 3
   title: "Learning to Abstract with Nonparametric Variational Information Bottleneck"
-  authors: "M. Behjati, F. Fehr, J. Henderson"
+  authors: "M. Behjati*, F. Fehr*, J. Henderson"
   venue: "Conference on Empirical Methods in Natural Language Processing"
   conference: "Findings of EMNLP 2023"
   paper: "https://openreview.net/pdf?id=vU0KbvQ91x"
