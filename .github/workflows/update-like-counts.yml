@@ -1,0 +1,54 @@
+name: Update blog like counts
+
+# Bakes blog post "toast" like counts from PostHog into a static JSON file
+# (content/site/blog-likes.json) that the site reads client-side, since a
+# static GitHub Pages site can't safely hold the private PostHog key needed
+# to query aggregate counts. See js/main.js (initSunLike) for the read side.
+#
+# Requires a repo secret POSTHOG_API_KEY: a PostHog Personal API Key with
+# query read access (Settings > Secrets and variables > Actions).
+#
+# Note: GitHub disables scheduled workflows after 60 days with no commits
+# to the repo. Re-enable from the Actions tab if that happens.
+
+on:
+  schedule:
+    - cron: '0 6 * * *' # daily at 6am UTC
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+jobs:
+  update-likes:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Query PostHog for like counts
+        env:
+          POSTHOG_API_KEY: ${{ secrets.POSTHOG_API_KEY }}
+        run: |
+          set -euo pipefail
+
+          HOGQL="SELECT properties.post_id AS post_id, count() AS likes FROM events WHERE event = 'blog_liked' GROUP BY post_id"
+          PAYLOAD=$(jq -n --arg q "$HOGQL" '{query: {kind: "HogQLQuery", query: $q}}')
+
+          RESPONSE=$(curl -sf -X POST "https://eu.posthog.com/api/projects/264811/query/" \
+            -H "Authorization: Bearer $POSTHOG_API_KEY" \
+            -H "Content-Type: application/json" \
+            -d "$PAYLOAD")
+
+          # Write to a temp file first so a malformed response never clobbers
+          # the last-known-good counts.
+          echo "$RESPONSE" | jq '(.results // []) | map({(.[0]|tostring): .[1]}) | add // {}' \
+            > /tmp/blog-likes.json
+
+          mv /tmp/blog-likes.json content/site/blog-likes.json
+
+      - name: Commit updated counts
+        uses: stefanzweifel/git-auto-commit-action@v5
+        with:
+          commit_message: "chore: update blog like counts [skip ci]"
+          file_pattern: content/site/blog-likes.json

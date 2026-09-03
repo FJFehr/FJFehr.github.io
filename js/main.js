@@ -9,11 +9,28 @@
 
     /**
      * ===================================================================
-     *                    SUPABASE CONFIGURATION
+     *                    POSTHOG CONFIGURATION
      * ===================================================================
+     * Used only to capture the "toast this post" like click as an event
+     * (blog_liked, with a post_id property). Autocapture/pageview capture
+     * are left off — this is a minimal, single-purpose integration, not
+     * general site analytics. The displayed count is read from a static
+     * JSON file (content/site/blog-likes.json) baked daily by a GitHub
+     * Action that queries these events — see .github/workflows/update-like-counts.yml.
      */
-    const SUPABASE_URL  = 'https://pcqaiztmkdrcsplwbvej.supabase.co';
-    const SUPABASE_ANON = 'sb_publishable_87vzWy_5tTOm9hw5luhsgA_2YBixaE7';
+    const POSTHOG_KEY  = 'phc_wmzgAdibfwpdrcdSh9979xB3nWURHsvZJQYqovXMhkrQ';
+    const POSTHOG_HOST = 'https://eu.posthog.com';
+    const BLOG_LIKES_JSON = '../content/site/blog-likes.json';
+
+    // PostHog loader snippet (official minimal loader — lazy-loads the real
+    // library from PostHog's CDN on first use, defines window.posthog).
+    !function(t,e){var o,n,p,r;e.__SV||(window.posthog=e,e._i=[],e.init=function(i,s,a){function g(t,e){var o=e.split(".");2==o.length&&(t=t[o[0]],e=o[1]),t[e]=function(){t.uploadQueue=t.uploadQueue||[],t.uploadQueue.push([e].concat(Array.prototype.slice.call(arguments,0)))}}(p=t.createElement("script")).type="text/javascript",p.crossOrigin="anonymous",p.async=!0,p.src=s.api_host.replace(".i.posthog.com","-assets.i.posthog.com")+"/static/array.js",(r=t.getElementsByTagName("script")[0]).parentNode.insertBefore(p,r);var u=e;for(void 0!==a?u=e[a]=[]:a="posthog",u.people=u.people||[],u.toString=function(t){var e="posthog";return"posthog"!==a&&(e+="."+a),t||(e+=" (stub)"),e},u.people.toString=function(){return u.toString(1)+".people (stub)"},o="init capture register register_once register_for_session unregister unregister_for_session getFeatureFlag getFeatureFlagPayload isFeatureEnabled reloadFeatureFlags updateEarlyAccessFeatureEnrollment getEarlyAccessFeatures on onFeatureFlags onSessionId getSurveys getActiveMatchingSurveys renderSurvey canRenderSurvey identify setPersonProperties group resetGroups setPersonPropertiesForFlags resetPersonPropertiesForFlags setGroupPropertiesForFlags resetGroupPropertiesForFlags reset get_distinct_id getGroups get_session_id get_session_replay_url alias set_config startSessionRecording stopSessionRecording sessionRecordingStarted captureException loadToolbar get_property getSurveysWaitingWithData syncWithPHVersion".split(" "),n=0;n<o.length;n++)g(u,o[n]);e._i.push([i,s,a])},e.__SV=1)}(document,window.posthog||[]);
+    posthog.init(POSTHOG_KEY, {
+        api_host: POSTHOG_HOST,
+        autocapture: false,
+        capture_pageview: false,
+        disable_session_recording: true,
+    });
 
     /**
      * ===================================================================
@@ -1071,8 +1088,9 @@ function wireShareButtons(title) {
 
 /**
  * Initialize the sun like button for a blog post.
- * Fetches current like count, handles click (increment + optimistic UI),
- * and persists liked state in localStorage.
+ * Reads the baseline count from the static blog-likes.json (baked daily by
+ * a GitHub Action from PostHog data), handles click (optimistic increment +
+ * posthog.capture), and persists liked state in localStorage.
  * @param {string} postId - The blog post ID
  */
 async function initSunLike(postId) {
@@ -1083,16 +1101,13 @@ async function initSunLike(postId) {
     const storageKey = `liked:${postId}`;
     const alreadyLiked = localStorage.getItem(storageKey) === '1';
 
-    // Fetch current count
+    // Fetch baseline count (as of the last daily bake)
     try {
-        const res = await fetch(
-            `${SUPABASE_URL}/rest/v1/blog_stats?post_id=eq.${encodeURIComponent(postId)}&select=likes`,
-            { headers: { apikey: SUPABASE_ANON, Authorization: `Bearer ${SUPABASE_ANON}` } }
-        );
+        const res = await fetch(BLOG_LIKES_JSON);
         if (res.ok) {
-            const rows = await res.json();
-            const likes = rows.length > 0 ? rows[0].likes : 0;
-            count.textContent = likes > 0 ? likes : '';
+            const likes = await res.json();
+            const n = likes[postId] || 0;
+            count.textContent = n > 0 ? n : '';
         }
     } catch (_) { /* network error — show no count */ }
 
@@ -1101,40 +1116,22 @@ async function initSunLike(postId) {
         btn.disabled = true;
     }
 
-    btn.addEventListener('click', async () => {
+    btn.addEventListener('click', () => {
         if (btn.disabled) return;
         btn.disabled = true;
         btn.classList.add('liked');
         localStorage.setItem(storageKey, '1');
 
-        // Optimistic increment
+        // Optimistic increment — the real baseline catches up on the next
+        // daily bake from PostHog, this is just immediate feedback.
         const prev = parseInt(count.textContent, 10) || 0;
         count.textContent = prev + 1;
 
         try {
-            const res = await fetch(
-                `${SUPABASE_URL}/rest/v1/rpc/increment_like`,
-                {
-                    method: 'POST',
-                    headers: {
-                        apikey: SUPABASE_ANON,
-                        Authorization: `Bearer ${SUPABASE_ANON}`,
-                        'Content-Type': 'application/json',
-                    },
-                    body: JSON.stringify({ p_post_id: postId }),
-                }
-            );
-            if (res.ok) {
-                const newCount = await res.json();
-                count.textContent = newCount > 0 ? newCount : prev + 1;
+            if (window.posthog) {
+                window.posthog.capture('blog_liked', { post_id: postId });
             }
-        } catch (_) {
-            // Silent rollback on network failure
-            count.textContent = prev || '';
-            btn.classList.remove('liked');
-            btn.disabled = false;
-            localStorage.removeItem(storageKey);
-        }
+        } catch (_) { /* posthog blocked (e.g. adblocker) — UI already updated */ }
     });
 }
 
