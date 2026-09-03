@@ -35,14 +35,23 @@ jobs:
           HOGQL="SELECT properties.post_id AS post_id, count() AS likes FROM events WHERE event = 'blog_liked' GROUP BY post_id"
           PAYLOAD=$(jq -n --arg q "$HOGQL" '{query: {kind: "HogQLQuery", query: $q}}')
 
-          RESPONSE=$(curl -sf -X POST "https://eu.posthog.com/api/projects/264811/query/" \
+          HTTP_CODE=$(curl -s -o /tmp/response.json -w "%{http_code}" -X POST "https://eu.posthog.com/api/projects/264811/query/" \
             -H "Authorization: Bearer $POSTHOG_API_KEY" \
             -H "Content-Type: application/json" \
             -d "$PAYLOAD")
 
+          echo "PostHog responded with HTTP $HTTP_CODE:"
+          cat /tmp/response.json
+          echo
+
+          if [ "$HTTP_CODE" -ge 400 ]; then
+            echo "::error::PostHog query failed with HTTP $HTTP_CODE — see response body above"
+            exit 1
+          fi
+
           # Write to a temp file first so a malformed response never clobbers
           # the last-known-good counts.
-          echo "$RESPONSE" | jq '(.results // []) | map({(.[0]|tostring): .[1]}) | add // {}' \
+          jq '(.results // []) | map({(.[0]|tostring): .[1]}) | add // {}' /tmp/response.json \
             > /tmp/blog-likes.json
 
           mv /tmp/blog-likes.json content/site/blog-likes.json
